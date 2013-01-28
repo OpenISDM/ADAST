@@ -1,0 +1,42 @@
+#!/bin/sh
+
+# variable
+FEED_URL="http://adast.servequake.com/hub/input/debris_alerts.xml"
+HUB_URL="http://adast.servequake.com/hub/hub.php"
+CALLBACK_URL="http://adast.servequake.com/hub/broker/callback.php"
+
+# browser url
+SUBSCRIBE_BROWSER_URL="$HUB_URL?callback=$CALLBACK_URL&topic=$FEED_URL"
+PUBLISH_BROWSER_URL="$HUB_URL?notification=true&topic=$FEED_URL"
+
+# subscribe from hub
+echo "subscribe url-command: $SUBSCRIBE_BROWSER_URL" # "$HUB_URL?callback=$CALLBACK_URL&topic=$FEED_URL"
+wget -O /dev/null $SUBSCRIBE_BROWSER_URL
+# publish to hub (Demo Strategy: publisher資料一有更新就主動跟hub說，如此一來hub就不用定期去檢查publisher資料更新了沒)
+echo "publish url-command: $PUBLISH_BROWSER_URL"  # "$HUB_URL?notification=true&topic=$FEED_URL"
+wget -O /dev/null $PUBLISH_BROWSER_URL
+# verbose message
+echo 'Check result in "broker/output/received-data.txt", which is generated (debug purpose) by callback.php'
+
+# test ruby post data
+~/.rvm/wrappers/ruby-1.9.3-p194/ruby post-data.rb
+
+# by curl
+#curl http://cwyu.no-ip.org/~cwyu/hub/hub.php?notification=true&topic=http://tw.news.yahoo.com/rss/golf
+#curl http://cwyu.no-ip.org/~cwyu/hub/hub.php?callback=http://cwyu.no-ip.org/~cwyu/hub/broker/callback.php&topic=http://tw.news.yahoo.com/rss/golf
+
+## Hub
+#hub.ccg.tw
+#
+#http://hub.ccg.tw/?notification=http://www.google.com
+#http://hub.ccg.tw/?callback=http://e.ccg.tw/broker/index.php&topic=http://www.google.com
+#http://hub.ccg.tw/?callback=http://openisdm.ccg.tw/broker/index.php&topic=http://www.google.com
+#
+#http://hub.ccg.tw/?callback=http://openisdm.ccg.tw/broker/index.php&topic=http://www.yahoo.com
+#
+#http://hub.ccg.tw/?notification=true&topic=http://www.yahoo.com
+#
+## Demo
+#http://hub.ccg.tw/?callback=https://ph.ccg.tw/broker/callback.php&topic=http://tw.news.yahoo.com/rss/golf
+##http://hub.ccg.tw/?callback=http://ph.ccg.tw/broker/callback.php&topic=http://tw.news.yahoo.com/rss/golf
+#http://hub.ccg.tw/?notification=1&topic=http://tw.news.yahoo.com/rss/golf

@@ -1,0 +1,13 @@
+<http://openisdm.iis.sinica.edu.tw/string> <http://openisdm.iis.sinica.edu.tw/DebrisAlertInfo> "" .
+<http://openisdm.iis.sinica.edu.tw/DebrisAlertInfo> <http://openisdm.iis.sinica.edu.tw/DebrisAlert> "" .
+<http://openisdm.iis.sinica.edu.tw/DebrisAlert> <http://openisdm.iis.sinica.edu.tw/AlertTime> "2012/08/22 17:00:00" .
+<http://openisdm.iis.sinica.edu.tw/DebrisAlert> <http://openisdm.iis.sinica.edu.tw/AlertValue> "200" .
+<http://openisdm.iis.sinica.edu.tw/DebrisAlert> <http://openisdm.iis.sinica.edu.tw/Vill> "\u548C\u5E73\u6751" .
+<http://openisdm.iis.sinica.edu.tw/DebrisAlert> <http://openisdm.iis.sinica.edu.tw/County> "\u82B1\u84EE\u7E23" .
+<http://openisdm.iis.sinica.edu.tw/DebrisAlert> <http://openisdm.iis.sinica.edu.tw/station2StationName> "\u5BCC\u4E16" .
+<http://openisdm.iis.sinica.edu.tw/DebrisAlert> <http://openisdm.iis.sinica.edu.tw/Town> "\u79C0\u6797\u9109" .
+<http://openisdm.iis.sinica.edu.tw/DebrisAlert> <http://openisdm.iis.sinica.edu.tw/station2ID> "1198" .
+<http://openisdm.iis.sinica.edu.tw/DebrisAlert> <http://openisdm.iis.sinica.edu.tw/station1ID> "1199" .
+<http://openisdm.iis.sinica.edu.tw/DebrisAlert> <http://openisdm.iis.sinica.edu.tw/AlertType> "Y" .
+<http://openisdm.iis.sinica.edu.tw/DebrisAlert> <http://openisdm.iis.sinica.edu.tw/Debrisno> "\u82B1\u7E23DF025" .
+<http://openisdm.iis.sinica.edu.tw/DebrisAlert> <http://openisdm.iis.sinica.edu.tw/station1StationName> "\u548C\u4E2D" .

@@ -1,0 +1,23 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:openisdm="http://openisdm.iis.sinica.edu.tw/" > 
+  <rdf:Description rdf:about="http://openisdm.iis.sinica.edu.tw/string">
+    <openisdm:DebrisAlertInfo></openisdm:DebrisAlertInfo>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openisdm.iis.sinica.edu.tw/DebrisAlertInfo">
+    <openisdm:DebrisAlert></openisdm:DebrisAlert>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://openisdm.iis.sinica.edu.tw/DebrisAlert">
+    <openisdm:AlertTime>2012/08/22 17:00:00</openisdm:AlertTime>
+    <openisdm:AlertValue>200</openisdm:AlertValue>
+    <openisdm:Vill>和平村</openisdm:Vill>
+    <openisdm:County>花蓮縣</openisdm:County>
+    <openisdm:station2StationName>富世</openisdm:station2StationName>
+    <openisdm:Town>秀林鄉</openisdm:Town>
+    <openisdm:station2ID>1198</openisdm:station2ID>
+    <openisdm:station1ID>1199</openisdm:station1ID>
+    <openisdm:AlertType>Y</openisdm:AlertType>
+    <openisdm:Debrisno>花縣DF025</openisdm:Debrisno>
+    <openisdm:station1StationName>和中</openisdm:station1StationName>
+  </rdf:Description>
+</rdf:RDF>

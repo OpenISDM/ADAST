@@ -9,9 +9,6 @@
 //
 // Java XML parser comparison
 // http://blog.xuite.net/javax/programmer/22438335-%EF%BC%BBXML%EF%BC%BDJava%E4%B8%AD%E5%9B%9B%E7%A8%AE%E6%93%8D%E4%BD%9Cxml%E6%96%B9%E5%BC%8F%E7%9A%84%E6%AF%94%E8%BC%83
-//
-// Jena API
-// http://jena.apache.org/documentation/javadoc/jena/index.html
 
 /*
  * Classname
@@ -63,9 +60,6 @@ import com.hp.hpl.jena.sparql.core.Var;
 import com.hp.hpl.jena.sparql.syntax.ElementGroup;
 import com.hp.hpl.jena.vocabulary.DC;
 
-import com.hp.hpl.jena.ontology.*;
-import com.hp.hpl.jena.rdf.model.Property;
-
 /*
  * Description
  *
@@ -92,7 +86,6 @@ public class GenerateRDF
         System.exit(0);
     }
 
-
     public class FromFileHierarchy
     {
         // config.xml
@@ -102,44 +95,25 @@ public class GenerateRDF
 
         // Jena used
         private Model model = null;
-        private String xmlnsUri = "";
-        private String rdfPrefix = "";
-        private String rdfVocabulary_Subdirectory = "";
-        private String rdfVocabulary_Leaf = "";
 
-        // // Jena API for RDF
-        // <xmlns:openisdm="http://somewhere.com/"> <openisdm:Subdirectory>
-        //           |         |                        |        |
-        //           |         ---- setNsPrefix();      |        ---- createProperty();
-        //           |                                  |
-        //           --------------------------------------- setNsPrefix();
-        public FromFileHierarchy(String rootPath) throws Exception
+        FromFileHierarchy(String rootPath) throws Exception
         {
             // read config.xml
             this.outputPath = ParseXML.getNodeValue("config.xml", "/config/generate-rdf/outputPath");
             this.fileName = ParseXML.getNodeValue("config.xml", "/config/generate-rdf/fileName");
             this.rootURL = ParseXML.getNodeValue("config.xml", "/config/generate-rdf/rootURL");
 
-            // set variable
-            xmlnsUri = "http://openisdm.iis.sinica.edu.tw/";
-            rdfPrefix = "openisdm";
-            rdfVocabulary_Subdirectory = "Subdirectory";
-            rdfVocabulary_Leaf = "Leaf";
-
-            // create object
-            model = ModelFactory.createDefaultModel();
-
-            // set rdf prefix
-            model.setNsPrefix(rdfPrefix, xmlnsUri);
-
-            // look into file hierarchy
-            traverse(new File(rootPath));
-
             // create output directory
             createLocalDirectory(this.outputPath);
 
             // output file
             String outputFile = this.outputPath + this.fileName;
+
+            // create object
+            model = ModelFactory.createDefaultModel();
+
+            // look into file hierarchy
+            traverse(new File(rootPath));
 
             // generate RDF
             model.write(new FileOutputStream(outputFile + "_(RDF-XML).rdf"), "RDF/XML");
@@ -161,46 +135,24 @@ public class GenerateRDF
         private void traverse(File file) throws Exception
         {
             if (file.isDirectory()) {
-                // create parent (RDF subject)
-                Resource parentResource = model.createResource(this.rootURL + file.getName());
+                // RDF part
+                String parentName = file.getName();
+                Resource parentResource = model.createResource(this.rootURL + parentName);
 
 //                onDirectory(file);
-
-                // get files
                 File [] childs = file.listFiles();
-
-                // DFS search
                 for (File child : childs) {
-                    // add RDF node
-                    addRdfNode(parentResource, child);
+                    // RDF part
+                    String childName = child.getName();
+                    Resource childResource = model.createResource(this.rootURL + childName);
+                    parentResource.addProperty(DC.title, childResource);
 
                     // recursive
                     traverse(child);
                 }
-
                 return;
             }
-
 //            onFile(file);
-
-        }
-
-        private void addRdfNode(Resource parentResource, File child) throws Exception
-        {
-            Property property = null;
-
-            // create property (RDF predicate)
-            if (child.isDirectory() == true) {
-                property = model.createProperty(xmlnsUri + rdfVocabulary_Subdirectory);
-            } else {
-                property = model.createProperty(xmlnsUri + rdfVocabulary_Leaf);
-            }
-
-            // create child (RDF object)
-            Resource childResource = model.createResource(this.rootURL + child.getName());
-
-            // add child, where (parentResource, property, childResource) is mapped as (subject, predicate, object) in RDF
-            parentResource.addProperty(property, childResource);
         }
 
         /*
@@ -248,6 +200,29 @@ public class GenerateRDF
         }
     }
 }    // end of class GenerateRDF
+
+/*    
+    public static Model createModel()
+    {
+        Model model = ModelFactory.createDefaultModel() ;
+        
+        Resource r1 = model.createResource("http://example.org/book#1") ;
+        Resource r2 = model.createResource("http://example.org/book#2") ;
+        Resource r3 = model.createResource("http://example.org/book#3") ;
+        
+        r1.addProperty(DC.title, "SPARQL - the book")
+          .addProperty(DC.description, "A book about SPARQL") ;
+        
+        r2.addProperty(DC.title, "Advanced techniques for SPARQL") ;
+
+        r3.addProperty(DC.title, "Jena - an RDF framework for Java")
+          .addProperty(DC.description, "A book about Jena") ;
+
+model.write(System.out, "RDF/XML-ABBREV");
+
+        return model ;
+    }
+*/
 
 
 //        File root = new File("/home/foobar/Personal/Examples");

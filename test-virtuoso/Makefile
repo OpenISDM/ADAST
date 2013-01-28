@@ -7,8 +7,9 @@ clean:
 
 run:
 	#java -Djava.ext.dirs=./lib/ -Djdbc.drivers=./lib/virtuoso.jdbc4.Driver. -classpath ./ Virtuoso
-	java -Djava.ext.dirs=./lib/ -Djdbc.drivers=virtuoso.jdbc4.Driver -classpath . Virtuoso
 	#java -Djava.ext.dirs=./lib/ -Djdbc.drivers=./lib/virtuoso.jdbc4.Driver -classpath ./ Virtuoso
+	java -Djava.ext.dirs=./lib/ -Djdbc.drivers=virtuoso.jdbc4.Driver -classpath . Virtuoso
+	#java -Dfile.encoding=UTF-8 -Djava.ext.dirs=./lib/ -Djdbc.drivers=virtuoso.jdbc4.Driver -classpath . Virtuoso
 
 #all:
 #    javac -Djava.ext.dirs=./lib/ -d . Virtuoso.java
