@@ -1,0 +1,30 @@
+Title: VR Rule Engine Read Me
+Author: Yi-Zong Ou
+Email: yzou@iis.sinica.edu.tw
+
+1. Environment:
+	1.1 Php5
+
+2. File Structure:
+	/Inference.php
+		=> Entry point of rule engine   
+	/fact.php
+		=> Define the class of variables such as debries flow parameter and function such as the action needed to perform when disaster received.
+	/rule.srl
+		=> Define the rule of rule engine.
+		=> 1. Use if statement in each rule only. This rule engine does not support else statement
+		=> 2. Each rule should have unique rule name
+		=> 3. Higher priority number means that the will be execute in earlier
+			  ex: 3 rules with priority 1, 2 and 3. The priority 3 will be execute first. The priority 1 rule will be the last executed.
+		=> 4. The author recommends theat descirbe the action in the fact.php but not in rule.srl. Since the fact.php can support standart php language which support more completely.
+	/phprules/*.php
+		=> The library of the rule engine.
+
+3. Execution:
+Put this director in the directory where the web server can recognize. Ex: /www/VR_rule_engine/
+
+Link to the /URL_of_this_webserver/VR_rule_engine/Inference.php
+
+The inference will be executed!
+
+

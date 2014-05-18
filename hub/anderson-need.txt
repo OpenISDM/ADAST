@@ -1,8 +1,0 @@
-
-    <ns1:Time xmlns:ns1="http://purl.org/NET/c4dm/event.owl#">2012/08/22 17:00:00</ns1:Time>
-    <ns1:AlertType xmlns:ns1="http://openisdm.iis.sinica.edu.tw/">Y</ns1:AlertType>
-    <ns1:AlertValue xmlns:ns1="http://openisdm.iis.sinica.edu.tw/">200</ns1:AlertValue>
-    <ns1:Debrisno xmlns:ns1="http://openisdm.iis.sinica.edu.tw/">DF025</ns1:Debrisno>
-    <ns1:Vill xmlns:ns1="http://purl.org/ontology/places#" rdf:resource="http://openisdm.iis.sinica.edu.tw/#Village/秀林鄉"/>
-    <ns1:Town xmlns:ns1="http://purl.org/ontology/places#" rdf:resource="http://openisdm.iis.sinica.edu.tw/#Town/花蓮縣"/>
-    <ns1:County xmlns:ns1="http://purl.org/ontology/places#" rdf:resource="http://openisdm.iis.sinica.edu.tw/#County/台灣"/>

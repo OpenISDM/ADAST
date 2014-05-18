@@ -1,0 +1,25 @@
+rule "Debries_Flow_3" priority=3
+    context Parameter $param 
+    if $param->country == 'Taiwan' && $param->town == 'Hualien' && $param->vill == 'Vill' && $param->alertType == 'Y' && $param->alertValue > 10 
+    then
+        print("Debries_Flow_3\n");
+        $action['ResponseComponent']->do_action_3();        
+    end
+
+rule "Debries_Flow_2" priority=2
+    context Parameter $param
+    if $param->country == 'Taiwan' && $param->town == 'Hualien' && $param->vill == 'Vill' && $param->alertType == 'Y' && $param->alertValue >= 6 && $param->alertValue <= 10
+    then
+        print("Debries_Flow_2\n");
+        $action['ResponseComponent']->do_action_2();
+    end
+
+rule "Debries_Flow_1" priority=1
+    context Parameter $param
+    if $param->country == 'Taiwan' && $param->town == 'Hualien' && $param->vill == 'Vill' && $param->alertType == 'Y' && $param->alertValue >= 1 && $param->alertValue <= 5
+    then
+        print("Debries_Flow_1\n");
+        $action['ResponseComponent']->do_action_1();
+    end
+
+

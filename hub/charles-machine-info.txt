@@ -1,7 +1,0 @@
-subscribe topic method
-http://hub.ccg.tw/?callback=http://e.ccg.tw/broker/callback.php&topic=http://tw.news.yahoo.com/rss/basketball
-
-publish topic method
-http://hub.ccg.tw/?notification=1&topic=http://tw.news.yahoo.com/rss/basketball
-
-hub.ccg.tw   hub  ///  12345678
