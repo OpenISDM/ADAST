@@ -4,7 +4,7 @@ ADAST (Automatic Disaster Alert System for Tourists) is designed to inform touri
 # ADAST Directory
 ADAST Core
 
-# hub Directory
+# Hub Directory
 Component of ADAST: An Implementation of Google Pubsubhubbub Hub
 
 # Document Directory

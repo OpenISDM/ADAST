@@ -1,0 +1,865 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='utf-8'>
+<title>
+2-git-repository-template/COPYING.txt at master - ATTENTION / 2.Git Repository Template | 
+GitLab
+</title>
+<link href="/gitlab/assets/favicon-220424ba6cb497309f8faf8545eb5408.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+<link href="/gitlab/assets/application-a967abfdaf8abd6d7a09a8b93e9aa4cf.css" media="screen" rel="stylesheet" />
+<script src="/gitlab/assets/application-ec2ecbebebe1f260a7ad1bc91e085781.js"></script>
+<meta content="authenticity_token" name="csrf-param" />
+<meta content="VT7GNQWMIAr1w24PN1/X+IeDlB4NicZ7r1dgHmiHYD0=" name="csrf-token" />
+<script type="text/javascript">
+//<![CDATA[
+window.gon={};gon.default_issues_tracker="gitlab";gon.api_version="v3";gon.api_token="Kw6Bzhh8gcuuZSJexstt";gon.gravatar_url="http://www.gravatar.com/avatar/%{hash}?s=%{size}\u0026d=mm";gon.relative_url_root="/gitlab";
+//]]>
+</script>
+
+</head>
+
+<body class='ui_gray project' data-page='projects:blob:show' data-project-id='104'>
+
+<header class='navbar navbar-static-top navbar-gitlab'>
+<div class='navbar-inner'>
+<div class='container'>
+<div class='app_logo'>
+<span class='separator'></span>
+<a class="home has_bottom_tooltip" href="/gitlab/" title="Dashboard"><h1>GITLAB</h1>
+</a><span class='separator'></span>
+</div>
+<h1 class='project_name'><span><a href="/gitlab/groups/attention">ATTENTION</a> / 2.Git Repository Template</span></h1>
+<ul class='nav'>
+<li>
+<a>
+<div class='hide turbolink-spinner'>
+<i class='icon-refresh icon-spin'></i>
+Loading...
+</div>
+</a>
+</li>
+<li>
+<div class='search'>
+<form accept-charset="UTF-8" action="/gitlab/search" class="navbar-form pull-left" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
+<input class="search-input" id="search" name="search" placeholder="Search in this project" type="text" />
+<input id="group_id" name="group_id" type="hidden" />
+<input id="project_id" name="project_id" type="hidden" value="104" />
+<input id="search_code" name="search_code" type="hidden" value="true" />
+<input id="repository_ref" name="repository_ref" type="hidden" value="master" />
+
+<div class='search-autocomplete-json hide' data-autocomplete-opts='[{"label":"group: ATTENTION","url":"/gitlab/groups/attention"},{"label":"group: MAD","url":"/gitlab/groups/sp4_vr"},{"label":"group: Obsolete-Repository","url":"/gitlab/groups/obsolete-repository"},{"label":"group: OpenISDM","url":"/gitlab/groups/openisdm"},{"label":"group: PuSHQpid","url":"/gitlab/groups/pushqpid"},{"label":"project: ATTENTION / 1.Project Overview","url":"/gitlab/attention/1-project-overview"},{"label":"project: ATTENTION / 2.Git Repository Template","url":"/gitlab/attention/2-git-repository-template"},{"label":"project: Johnson / ritman2012","url":"/gitlab/Johnson/ritman2012"},{"label":"project: Johnson / uniqush-client","url":"/gitlab/Johnson/uniqush-client"},{"label":"project: Johnson / PubSubHubbub-Hub","url":"/gitlab/Johnson/pubsubhubbub-hub"},{"label":"project: Johnson / PubSubHubbub-PublisherClients","url":"/gitlab/Johnson/pubsubhubbub-publisherclients"},{"label":"project: Johnson / PubSubHubbub-SubscriberClients","url":"/gitlab/Johnson/pubsubhubbub-subscriberclients"},{"label":"project: Johnson / rdf_translator_test","url":"/gitlab/Johnson/rdf_translator_test"},{"label":"project: Johnson / gethttpcontent","url":"/gitlab/Johnson/gethttpcontent"},{"label":"project: MAD / Documentation","url":"/gitlab/sp4_vr/MAD_Design_Document"},{"label":"project: MAD / MobileClients","url":"/gitlab/sp4_vr/mobileapplication-git"},{"label":"project: MAD / EasyBrowseSPARQLs","url":"/gitlab/sp4_vr/vr_mad_is_easybrowsesparqls"},{"label":"project: MAD / IS","url":"/gitlab/sp4_vr/mad-is-server"},{"label":"project: MAD / POS","url":"/gitlab/sp4_vr/mad_pos"},{"label":"project: Obsolete-Repository / VR_ontology_design_document","url":"/gitlab/obsolete-repository/vr_ontology_design_document"},{"label":"project: Obsolete-Repository / VR_translatorXMLtoRDF","url":"/gitlab/obsolete-repository/vr_translatorxmltordf"},{"label":"project: Obsolete-Repository / VR_triple_store","url":"/gitlab/obsolete-repository/vr_triple_store"},{"label":"project: Obsolete-Repository / VR_uss","url":"/gitlab/obsolete-repository/vr_uss"},{"label":"project: OpenISDM / ABDiSE","url":"/gitlab/openisdm/abdise_agent-based-simulator"},{"label":"project: OpenISDM / OIGY_document","url":"/gitlab/openisdm/oigy_document"},{"label":"project: OpenISDM / OIGY_push_design_document","url":"/gitlab/openisdm/oigy_push_design_document"},{"label":"project: OpenISDM / OIGY_qpid_camtest","url":"/gitlab/openisdm/oigy_qpid_camtest"},{"label":"project: OpenISDM / ADAST","url":"/gitlab/openisdm/vr_adast"},{"label":"project: OpenISDM / UMS","url":"/gitlab/openisdm/vr_ums"},{"label":"project: OpenISDM / Official_Webstie_Joomla","url":"/gitlab/openisdm/official_webstie_joomla"},{"label":"project: PuSHQpid / DataBridge","url":"/gitlab/pushqpid/databridge"},{"label":"project: PuSHQpid / OIGY_qpid_over_arm","url":"/gitlab/pushqpid/oigy_qpid_over_arm"},{"label":"project: PuSHQpid / OIGY_push ","url":"/gitlab/pushqpid/oigy_push"},{"label":"project: YunTech_EoSLab / lifile","url":"/gitlab/yuntech_eoslab/lifile"},{"label":"project: YunTech_EoSLab / CROSS","url":"/gitlab/yuntech_eoslab/yuntech_cross"},{"label":"project: YunTech_EoSLab / iGads","url":"/gitlab/yuntech_eoslab/igads"},{"label":"project: X2R / USS","url":"/gitlab/x2r/uss"},{"label":"project: craylee / FCFSI_handbook","url":"/gitlab/craylee/fcfsi_handbook"},{"label":"project: FCFSI / TIBS","url":"/gitlab/sp5_fcfsi/pos_tibs"},{"label":"project: gentryyao / USS","url":"/gitlab/gentryyao/uss"},{"label":"My Profile settings","url":"/gitlab/profile"},{"label":"My SSH Keys","url":"/gitlab/profile/keys"},{"label":"My Dashboard","url":"/gitlab/"},{"label":"Admin Section","url":"/gitlab/admin"},{"label":"ATTENTION / 2.Git Repository Template - Files","url":"/gitlab/attention/2-git-repository-template/tree/master"},{"label":"ATTENTION / 2.Git Repository Template - Commits","url":"/gitlab/attention/2-git-repository-template/commits/master"},{"label":"ATTENTION / 2.Git Repository Template - Network","url":"/gitlab/attention/2-git-repository-template/network/master"},{"label":"ATTENTION / 2.Git Repository Template - Graph","url":"/gitlab/attention/2-git-repository-template/graphs/master"},{"label":"ATTENTION / 2.Git Repository Template - Issues","url":"/gitlab/attention/2-git-repository-template/issues"},{"label":"ATTENTION / 2.Git Repository Template - Merge Requests","url":"/gitlab/attention/2-git-repository-template/merge_requests"},{"label":"ATTENTION / 2.Git Repository Template - Milestones","url":"/gitlab/attention/2-git-repository-template/milestones"},{"label":"ATTENTION / 2.Git Repository Template - Snippets","url":"/gitlab/attention/2-git-repository-template/snippets"},{"label":"ATTENTION / 2.Git Repository Template - Team","url":"/gitlab/attention/2-git-repository-template/team"},{"label":"ATTENTION / 2.Git Repository Template - Wall","url":"/gitlab/attention/2-git-repository-template/wall"},{"label":"ATTENTION / 2.Git Repository Template - Wiki","url":"/gitlab/attention/2-git-repository-template/wikis"},{"label":"help: API Help","url":"/gitlab/help/api"},{"label":"help: Markdown Help","url":"/gitlab/help/markdown"},{"label":"help: Permissions Help","url":"/gitlab/help/permissions"},{"label":"help: Public Access Help","url":"/gitlab/help/public_access"},{"label":"help: Rake Tasks Help","url":"/gitlab/help/raketasks"},{"label":"help: SSH Keys Help","url":"/gitlab/help/ssh"},{"label":"help: System Hooks Help","url":"/gitlab/help/system_hooks"},{"label":"help: Web Hooks Help","url":"/gitlab/help/web_hooks"},{"label":"help: Workflow Help","url":"/gitlab/help/workflow"}]'></div>
+</form>
+
+</div>
+
+</li>
+<li>
+<a class="has_bottom_tooltip" data-original-title="Public area" href="/gitlab/public" title="Public area"><i class='icon-globe'></i>
+</a></li>
+<li>
+<a class="has_bottom_tooltip" data-original-title="Public area" href="/gitlab/s/Johnson" title="My snippets"><i class='icon-paste'></i>
+</a></li>
+<li>
+<a class="has_bottom_tooltip" data-original-title="Admin area" href="/gitlab/admin" title="Admin area"><i class='icon-cogs'></i>
+</a></li>
+<li>
+<a class="has_bottom_tooltip" data-original-title="New project" href="/gitlab/projects/new" title="New project"><i class='icon-plus'></i>
+</a></li>
+<li>
+<a class="has_bottom_tooltip" data-original-title="Profile settings&quot;" href="/gitlab/profile" title="Profile settings"><i class='icon-user'></i>
+</a></li>
+<li>
+<a class="has_bottom_tooltip" data-method="delete" data-original-title="Logout" href="/gitlab/users/sign_out" rel="nofollow" title="Logout"><i class='icon-signout'></i>
+</a></li>
+<li>
+<a class="profile-pic" href="/gitlab/u/Johnson" id="profile-pic"><img alt="User activity" src="/gitlab/uploads/user/avatar/3/photo.jpg" />
+</a></li>
+</ul>
+</div>
+</div>
+</header>
+
+<script>
+  GitLab.GfmAutoComplete.dataSource = "/gitlab/attention/2-git-repository-template/autocomplete_sources"
+  GitLab.GfmAutoComplete.Emoji.assetBase = "/gitlab/assets/emoji"
+  GitLab.GfmAutoComplete.setup();
+</script>
+
+<div class='flash-container'>
+</div>
+
+
+<nav class='main-nav'>
+<div class='container'><ul>
+<li class="home"><a href="/gitlab/attention/2-git-repository-template" title="Project"><i class='icon-home'></i>
+</a></li><li class="active"><a href="/gitlab/attention/2-git-repository-template/tree/master">Files</a>
+</li><li class=""><a href="/gitlab/attention/2-git-repository-template/commits/master">Commits</a>
+</li><li class=""><a href="/gitlab/attention/2-git-repository-template/network/master">Network</a>
+</li><li class=""><a href="/gitlab/attention/2-git-repository-template/graphs/master">Graphs</a>
+</li><li class=""><a href="/gitlab/attention/2-git-repository-template/issues">Issues
+<span class='count issue_counter'>0</span>
+</a></li><li class=""><a href="/gitlab/attention/2-git-repository-template/merge_requests">Merge Requests
+<span class='count merge_counter'>0</span>
+</a></li><li class=""><a href="/gitlab/attention/2-git-repository-template/wikis/home">Wiki</a>
+</li><li class=""><a class="stat-tab tab " href="/gitlab/attention/2-git-repository-template/edit">Settings
+</a></li></ul>
+</div>
+</nav>
+<div class='container'>
+<div class='content'><div class='tree-ref-holder'>
+<form accept-charset="UTF-8" action="/gitlab/attention/2-git-repository-template/refs/switch" class="project-refs-form" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
+<select class="project-refs-select chosen" id="ref" name="ref"><optgroup label="Branches"><option value="Edit">Edit</option>
+<option selected="selected" value="master">master</option></optgroup><optgroup label="Tags"></optgroup></select>
+<input id="destination" name="destination" type="hidden" value="blob" />
+<input id="path" name="path" type="hidden" value="COPYING.txt" />
+</form>
+
+
+</div>
+<div class='tree-holder' id='tree-holder'>
+<ul class='breadcrumb'>
+<li>
+<i class='icon-angle-right'></i>
+<a href="/gitlab/attention/2-git-repository-template/tree/master">2-git-repository-template
+</a></li>
+/
+<li>
+<a href="/gitlab/attention/2-git-repository-template/blob/master/COPYING.txt"><span class='cblue'>
+COPYING.txt
+</span>
+</a></li>
+</ul>
+<div class='tree-content-holder' id='tree-content-holder'>
+<div class='file-holder'>
+<div class='file-title'>
+<i class='icon-file'></i>
+<span class='file_name'>
+COPYING.txt
+<small>34.3 KB</small>
+</span>
+<span class='options'><div class='btn-group tree-btn-group'>
+<a class="btn btn-small" href="/gitlab/attention/2-git-repository-template/edit/master/COPYING.txt">edit</a>
+<a class="btn btn-small" href="/gitlab/attention/2-git-repository-template/raw/master/COPYING.txt" target="_blank">raw</a>
+<a class="btn btn-small" href="/gitlab/attention/2-git-repository-template/blame/master/COPYING.txt">blame</a>
+<a class="btn btn-small" href="/gitlab/attention/2-git-repository-template/commits/master/COPYING.txt">history</a>
+<a class="remove-blob btn btn-small btn-remove" data-toggle="modal" href="#modal-remove-blob">remove
+</a></div>
+</span>
+</div>
+<div class='file-content code'>
+<div class='monokai'>
+<table class="lines"><tr><td><pre class="line_numbers"><a id="L1" href="#L1" rel="#L1"><i class="icon-link"></i>   1</a>
+<a id="L2" href="#L2" rel="#L2"><i class="icon-link"></i>   2</a>
+<a id="L3" href="#L3" rel="#L3"><i class="icon-link"></i>   3</a>
+<a id="L4" href="#L4" rel="#L4"><i class="icon-link"></i>   4</a>
+<a id="L5" href="#L5" rel="#L5"><i class="icon-link"></i>   5</a>
+<a id="L6" href="#L6" rel="#L6"><i class="icon-link"></i>   6</a>
+<a id="L7" href="#L7" rel="#L7"><i class="icon-link"></i>   7</a>
+<a id="L8" href="#L8" rel="#L8"><i class="icon-link"></i>   8</a>
+<a id="L9" href="#L9" rel="#L9"><i class="icon-link"></i>   9</a>
+<a id="L10" href="#L10" rel="#L10"><i class="icon-link"></i>  10</a>
+<a id="L11" href="#L11" rel="#L11"><i class="icon-link"></i>  11</a>
+<a id="L12" href="#L12" rel="#L12"><i class="icon-link"></i>  12</a>
+<a id="L13" href="#L13" rel="#L13"><i class="icon-link"></i>  13</a>
+<a id="L14" href="#L14" rel="#L14"><i class="icon-link"></i>  14</a>
+<a id="L15" href="#L15" rel="#L15"><i class="icon-link"></i>  15</a>
+<a id="L16" href="#L16" rel="#L16"><i class="icon-link"></i>  16</a>
+<a id="L17" href="#L17" rel="#L17"><i class="icon-link"></i>  17</a>
+<a id="L18" href="#L18" rel="#L18"><i class="icon-link"></i>  18</a>
+<a id="L19" href="#L19" rel="#L19"><i class="icon-link"></i>  19</a>
+<a id="L20" href="#L20" rel="#L20"><i class="icon-link"></i>  20</a>
+<a id="L21" href="#L21" rel="#L21"><i class="icon-link"></i>  21</a>
+<a id="L22" href="#L22" rel="#L22"><i class="icon-link"></i>  22</a>
+<a id="L23" href="#L23" rel="#L23"><i class="icon-link"></i>  23</a>
+<a id="L24" href="#L24" rel="#L24"><i class="icon-link"></i>  24</a>
+<a id="L25" href="#L25" rel="#L25"><i class="icon-link"></i>  25</a>
+<a id="L26" href="#L26" rel="#L26"><i class="icon-link"></i>  26</a>
+<a id="L27" href="#L27" rel="#L27"><i class="icon-link"></i>  27</a>
+<a id="L28" href="#L28" rel="#L28"><i class="icon-link"></i>  28</a>
+<a id="L29" href="#L29" rel="#L29"><i class="icon-link"></i>  29</a>
+<a id="L30" href="#L30" rel="#L30"><i class="icon-link"></i>  30</a>
+<a id="L31" href="#L31" rel="#L31"><i class="icon-link"></i>  31</a>
+<a id="L32" href="#L32" rel="#L32"><i class="icon-link"></i>  32</a>
+<a id="L33" href="#L33" rel="#L33"><i class="icon-link"></i>  33</a>
+<a id="L34" href="#L34" rel="#L34"><i class="icon-link"></i>  34</a>
+<a id="L35" href="#L35" rel="#L35"><i class="icon-link"></i>  35</a>
+<a id="L36" href="#L36" rel="#L36"><i class="icon-link"></i>  36</a>
+<a id="L37" href="#L37" rel="#L37"><i class="icon-link"></i>  37</a>
+<a id="L38" href="#L38" rel="#L38"><i class="icon-link"></i>  38</a>
+<a id="L39" href="#L39" rel="#L39"><i class="icon-link"></i>  39</a>
+<a id="L40" href="#L40" rel="#L40"><i class="icon-link"></i>  40</a>
+<a id="L41" href="#L41" rel="#L41"><i class="icon-link"></i>  41</a>
+<a id="L42" href="#L42" rel="#L42"><i class="icon-link"></i>  42</a>
+<a id="L43" href="#L43" rel="#L43"><i class="icon-link"></i>  43</a>
+<a id="L44" href="#L44" rel="#L44"><i class="icon-link"></i>  44</a>
+<a id="L45" href="#L45" rel="#L45"><i class="icon-link"></i>  45</a>
+<a id="L46" href="#L46" rel="#L46"><i class="icon-link"></i>  46</a>
+<a id="L47" href="#L47" rel="#L47"><i class="icon-link"></i>  47</a>
+<a id="L48" href="#L48" rel="#L48"><i class="icon-link"></i>  48</a>
+<a id="L49" href="#L49" rel="#L49"><i class="icon-link"></i>  49</a>
+<a id="L50" href="#L50" rel="#L50"><i class="icon-link"></i>  50</a>
+<a id="L51" href="#L51" rel="#L51"><i class="icon-link"></i>  51</a>
+<a id="L52" href="#L52" rel="#L52"><i class="icon-link"></i>  52</a>
+<a id="L53" href="#L53" rel="#L53"><i class="icon-link"></i>  53</a>
+<a id="L54" href="#L54" rel="#L54"><i class="icon-link"></i>  54</a>
+<a id="L55" href="#L55" rel="#L55"><i class="icon-link"></i>  55</a>
+<a id="L56" href="#L56" rel="#L56"><i class="icon-link"></i>  56</a>
+<a id="L57" href="#L57" rel="#L57"><i class="icon-link"></i>  57</a>
+<a id="L58" href="#L58" rel="#L58"><i class="icon-link"></i>  58</a>
+<a id="L59" href="#L59" rel="#L59"><i class="icon-link"></i>  59</a>
+<a id="L60" href="#L60" rel="#L60"><i class="icon-link"></i>  60</a>
+<a id="L61" href="#L61" rel="#L61"><i class="icon-link"></i>  61</a>
+<a id="L62" href="#L62" rel="#L62"><i class="icon-link"></i>  62</a>
+<a id="L63" href="#L63" rel="#L63"><i class="icon-link"></i>  63</a>
+<a id="L64" href="#L64" rel="#L64"><i class="icon-link"></i>  64</a>
+<a id="L65" href="#L65" rel="#L65"><i class="icon-link"></i>  65</a>
+<a id="L66" href="#L66" rel="#L66"><i class="icon-link"></i>  66</a>
+<a id="L67" href="#L67" rel="#L67"><i class="icon-link"></i>  67</a>
+<a id="L68" href="#L68" rel="#L68"><i class="icon-link"></i>  68</a>
+<a id="L69" href="#L69" rel="#L69"><i class="icon-link"></i>  69</a>
+<a id="L70" href="#L70" rel="#L70"><i class="icon-link"></i>  70</a>
+<a id="L71" href="#L71" rel="#L71"><i class="icon-link"></i>  71</a>
+<a id="L72" href="#L72" rel="#L72"><i class="icon-link"></i>  72</a>
+<a id="L73" href="#L73" rel="#L73"><i class="icon-link"></i>  73</a>
+<a id="L74" href="#L74" rel="#L74"><i class="icon-link"></i>  74</a>
+<a id="L75" href="#L75" rel="#L75"><i class="icon-link"></i>  75</a>
+<a id="L76" href="#L76" rel="#L76"><i class="icon-link"></i>  76</a>
+<a id="L77" href="#L77" rel="#L77"><i class="icon-link"></i>  77</a>
+<a id="L78" href="#L78" rel="#L78"><i class="icon-link"></i>  78</a>
+<a id="L79" href="#L79" rel="#L79"><i class="icon-link"></i>  79</a>
+<a id="L80" href="#L80" rel="#L80"><i class="icon-link"></i>  80</a>
+<a id="L81" href="#L81" rel="#L81"><i class="icon-link"></i>  81</a>
+<a id="L82" href="#L82" rel="#L82"><i class="icon-link"></i>  82</a>
+<a id="L83" href="#L83" rel="#L83"><i class="icon-link"></i>  83</a>
+<a id="L84" href="#L84" rel="#L84"><i class="icon-link"></i>  84</a>
+<a id="L85" href="#L85" rel="#L85"><i class="icon-link"></i>  85</a>
+<a id="L86" href="#L86" rel="#L86"><i class="icon-link"></i>  86</a>
+<a id="L87" href="#L87" rel="#L87"><i class="icon-link"></i>  87</a>
+<a id="L88" href="#L88" rel="#L88"><i class="icon-link"></i>  88</a>
+<a id="L89" href="#L89" rel="#L89"><i class="icon-link"></i>  89</a>
+<a id="L90" href="#L90" rel="#L90"><i class="icon-link"></i>  90</a>
+<a id="L91" href="#L91" rel="#L91"><i class="icon-link"></i>  91</a>
+<a id="L92" href="#L92" rel="#L92"><i class="icon-link"></i>  92</a>
+<a id="L93" href="#L93" rel="#L93"><i class="icon-link"></i>  93</a>
+<a id="L94" href="#L94" rel="#L94"><i class="icon-link"></i>  94</a>
+<a id="L95" href="#L95" rel="#L95"><i class="icon-link"></i>  95</a>
+<a id="L96" href="#L96" rel="#L96"><i class="icon-link"></i>  96</a>
+<a id="L97" href="#L97" rel="#L97"><i class="icon-link"></i>  97</a>
+<a id="L98" href="#L98" rel="#L98"><i class="icon-link"></i>  98</a>
+<a id="L99" href="#L99" rel="#L99"><i class="icon-link"></i>  99</a>
+<a id="L100" href="#L100" rel="#L100"><i class="icon-link"></i> 100</a>
+<a id="L101" href="#L101" rel="#L101"><i class="icon-link"></i> 101</a>
+<a id="L102" href="#L102" rel="#L102"><i class="icon-link"></i> 102</a>
+<a id="L103" href="#L103" rel="#L103"><i class="icon-link"></i> 103</a>
+<a id="L104" href="#L104" rel="#L104"><i class="icon-link"></i> 104</a>
+<a id="L105" href="#L105" rel="#L105"><i class="icon-link"></i> 105</a>
+<a id="L106" href="#L106" rel="#L106"><i class="icon-link"></i> 106</a>
+<a id="L107" href="#L107" rel="#L107"><i class="icon-link"></i> 107</a>
+<a id="L108" href="#L108" rel="#L108"><i class="icon-link"></i> 108</a>
+<a id="L109" href="#L109" rel="#L109"><i class="icon-link"></i> 109</a>
+<a id="L110" href="#L110" rel="#L110"><i class="icon-link"></i> 110</a>
+<a id="L111" href="#L111" rel="#L111"><i class="icon-link"></i> 111</a>
+<a id="L112" href="#L112" rel="#L112"><i class="icon-link"></i> 112</a>
+<a id="L113" href="#L113" rel="#L113"><i class="icon-link"></i> 113</a>
+<a id="L114" href="#L114" rel="#L114"><i class="icon-link"></i> 114</a>
+<a id="L115" href="#L115" rel="#L115"><i class="icon-link"></i> 115</a>
+<a id="L116" href="#L116" rel="#L116"><i class="icon-link"></i> 116</a>
+<a id="L117" href="#L117" rel="#L117"><i class="icon-link"></i> 117</a>
+<a id="L118" href="#L118" rel="#L118"><i class="icon-link"></i> 118</a>
+<a id="L119" href="#L119" rel="#L119"><i class="icon-link"></i> 119</a>
+<a id="L120" href="#L120" rel="#L120"><i class="icon-link"></i> 120</a>
+<a id="L121" href="#L121" rel="#L121"><i class="icon-link"></i> 121</a>
+<a id="L122" href="#L122" rel="#L122"><i class="icon-link"></i> 122</a>
+<a id="L123" href="#L123" rel="#L123"><i class="icon-link"></i> 123</a>
+<a id="L124" href="#L124" rel="#L124"><i class="icon-link"></i> 124</a>
+<a id="L125" href="#L125" rel="#L125"><i class="icon-link"></i> 125</a>
+<a id="L126" href="#L126" rel="#L126"><i class="icon-link"></i> 126</a>
+<a id="L127" href="#L127" rel="#L127"><i class="icon-link"></i> 127</a>
+<a id="L128" href="#L128" rel="#L128"><i class="icon-link"></i> 128</a>
+<a id="L129" href="#L129" rel="#L129"><i class="icon-link"></i> 129</a>
+<a id="L130" href="#L130" rel="#L130"><i class="icon-link"></i> 130</a>
+<a id="L131" href="#L131" rel="#L131"><i class="icon-link"></i> 131</a>
+<a id="L132" href="#L132" rel="#L132"><i class="icon-link"></i> 132</a>
+<a id="L133" href="#L133" rel="#L133"><i class="icon-link"></i> 133</a>
+<a id="L134" href="#L134" rel="#L134"><i class="icon-link"></i> 134</a>
+<a id="L135" href="#L135" rel="#L135"><i class="icon-link"></i> 135</a>
+<a id="L136" href="#L136" rel="#L136"><i class="icon-link"></i> 136</a>
+<a id="L137" href="#L137" rel="#L137"><i class="icon-link"></i> 137</a>
+<a id="L138" href="#L138" rel="#L138"><i class="icon-link"></i> 138</a>
+<a id="L139" href="#L139" rel="#L139"><i class="icon-link"></i> 139</a>
+<a id="L140" href="#L140" rel="#L140"><i class="icon-link"></i> 140</a>
+<a id="L141" href="#L141" rel="#L141"><i class="icon-link"></i> 141</a>
+<a id="L142" href="#L142" rel="#L142"><i class="icon-link"></i> 142</a>
+<a id="L143" href="#L143" rel="#L143"><i class="icon-link"></i> 143</a>
+<a id="L144" href="#L144" rel="#L144"><i class="icon-link"></i> 144</a>
+<a id="L145" href="#L145" rel="#L145"><i class="icon-link"></i> 145</a>
+<a id="L146" href="#L146" rel="#L146"><i class="icon-link"></i> 146</a>
+<a id="L147" href="#L147" rel="#L147"><i class="icon-link"></i> 147</a>
+<a id="L148" href="#L148" rel="#L148"><i class="icon-link"></i> 148</a>
+<a id="L149" href="#L149" rel="#L149"><i class="icon-link"></i> 149</a>
+<a id="L150" href="#L150" rel="#L150"><i class="icon-link"></i> 150</a>
+<a id="L151" href="#L151" rel="#L151"><i class="icon-link"></i> 151</a>
+<a id="L152" href="#L152" rel="#L152"><i class="icon-link"></i> 152</a>
+<a id="L153" href="#L153" rel="#L153"><i class="icon-link"></i> 153</a>
+<a id="L154" href="#L154" rel="#L154"><i class="icon-link"></i> 154</a>
+<a id="L155" href="#L155" rel="#L155"><i class="icon-link"></i> 155</a>
+<a id="L156" href="#L156" rel="#L156"><i class="icon-link"></i> 156</a>
+<a id="L157" href="#L157" rel="#L157"><i class="icon-link"></i> 157</a>
+<a id="L158" href="#L158" rel="#L158"><i class="icon-link"></i> 158</a>
+<a id="L159" href="#L159" rel="#L159"><i class="icon-link"></i> 159</a>
+<a id="L160" href="#L160" rel="#L160"><i class="icon-link"></i> 160</a>
+<a id="L161" href="#L161" rel="#L161"><i class="icon-link"></i> 161</a>
+<a id="L162" href="#L162" rel="#L162"><i class="icon-link"></i> 162</a>
+<a id="L163" href="#L163" rel="#L163"><i class="icon-link"></i> 163</a>
+<a id="L164" href="#L164" rel="#L164"><i class="icon-link"></i> 164</a>
+<a id="L165" href="#L165" rel="#L165"><i class="icon-link"></i> 165</a>
+<a id="L166" href="#L166" rel="#L166"><i class="icon-link"></i> 166</a>
+<a id="L167" href="#L167" rel="#L167"><i class="icon-link"></i> 167</a>
+<a id="L168" href="#L168" rel="#L168"><i class="icon-link"></i> 168</a>
+<a id="L169" href="#L169" rel="#L169"><i class="icon-link"></i> 169</a>
+<a id="L170" href="#L170" rel="#L170"><i class="icon-link"></i> 170</a>
+<a id="L171" href="#L171" rel="#L171"><i class="icon-link"></i> 171</a>
+<a id="L172" href="#L172" rel="#L172"><i class="icon-link"></i> 172</a>
+<a id="L173" href="#L173" rel="#L173"><i class="icon-link"></i> 173</a>
+<a id="L174" href="#L174" rel="#L174"><i class="icon-link"></i> 174</a>
+<a id="L175" href="#L175" rel="#L175"><i class="icon-link"></i> 175</a>
+<a id="L176" href="#L176" rel="#L176"><i class="icon-link"></i> 176</a>
+<a id="L177" href="#L177" rel="#L177"><i class="icon-link"></i> 177</a>
+<a id="L178" href="#L178" rel="#L178"><i class="icon-link"></i> 178</a>
+<a id="L179" href="#L179" rel="#L179"><i class="icon-link"></i> 179</a>
+<a id="L180" href="#L180" rel="#L180"><i class="icon-link"></i> 180</a>
+<a id="L181" href="#L181" rel="#L181"><i class="icon-link"></i> 181</a>
+<a id="L182" href="#L182" rel="#L182"><i class="icon-link"></i> 182</a>
+<a id="L183" href="#L183" rel="#L183"><i class="icon-link"></i> 183</a>
+<a id="L184" href="#L184" rel="#L184"><i class="icon-link"></i> 184</a>
+<a id="L185" href="#L185" rel="#L185"><i class="icon-link"></i> 185</a>
+<a id="L186" href="#L186" rel="#L186"><i class="icon-link"></i> 186</a>
+<a id="L187" href="#L187" rel="#L187"><i class="icon-link"></i> 187</a>
+<a id="L188" href="#L188" rel="#L188"><i class="icon-link"></i> 188</a>
+<a id="L189" href="#L189" rel="#L189"><i class="icon-link"></i> 189</a>
+<a id="L190" href="#L190" rel="#L190"><i class="icon-link"></i> 190</a>
+<a id="L191" href="#L191" rel="#L191"><i class="icon-link"></i> 191</a>
+<a id="L192" href="#L192" rel="#L192"><i class="icon-link"></i> 192</a>
+<a id="L193" href="#L193" rel="#L193"><i class="icon-link"></i> 193</a>
+<a id="L194" href="#L194" rel="#L194"><i class="icon-link"></i> 194</a>
+<a id="L195" href="#L195" rel="#L195"><i class="icon-link"></i> 195</a>
+<a id="L196" href="#L196" rel="#L196"><i class="icon-link"></i> 196</a>
+<a id="L197" href="#L197" rel="#L197"><i class="icon-link"></i> 197</a>
+<a id="L198" href="#L198" rel="#L198"><i class="icon-link"></i> 198</a>
+<a id="L199" href="#L199" rel="#L199"><i class="icon-link"></i> 199</a>
+<a id="L200" href="#L200" rel="#L200"><i class="icon-link"></i> 200</a>
+<a id="L201" href="#L201" rel="#L201"><i class="icon-link"></i> 201</a>
+<a id="L202" href="#L202" rel="#L202"><i class="icon-link"></i> 202</a>
+<a id="L203" href="#L203" rel="#L203"><i class="icon-link"></i> 203</a>
+<a id="L204" href="#L204" rel="#L204"><i class="icon-link"></i> 204</a>
+<a id="L205" href="#L205" rel="#L205"><i class="icon-link"></i> 205</a>
+<a id="L206" href="#L206" rel="#L206"><i class="icon-link"></i> 206</a>
+<a id="L207" href="#L207" rel="#L207"><i class="icon-link"></i> 207</a>
+<a id="L208" href="#L208" rel="#L208"><i class="icon-link"></i> 208</a>
+<a id="L209" href="#L209" rel="#L209"><i class="icon-link"></i> 209</a>
+<a id="L210" href="#L210" rel="#L210"><i class="icon-link"></i> 210</a>
+<a id="L211" href="#L211" rel="#L211"><i class="icon-link"></i> 211</a>
+<a id="L212" href="#L212" rel="#L212"><i class="icon-link"></i> 212</a>
+<a id="L213" href="#L213" rel="#L213"><i class="icon-link"></i> 213</a>
+<a id="L214" href="#L214" rel="#L214"><i class="icon-link"></i> 214</a>
+<a id="L215" href="#L215" rel="#L215"><i class="icon-link"></i> 215</a>
+<a id="L216" href="#L216" rel="#L216"><i class="icon-link"></i> 216</a>
+<a id="L217" href="#L217" rel="#L217"><i class="icon-link"></i> 217</a>
+<a id="L218" href="#L218" rel="#L218"><i class="icon-link"></i> 218</a>
+<a id="L219" href="#L219" rel="#L219"><i class="icon-link"></i> 219</a>
+<a id="L220" href="#L220" rel="#L220"><i class="icon-link"></i> 220</a>
+<a id="L221" href="#L221" rel="#L221"><i class="icon-link"></i> 221</a>
+<a id="L222" href="#L222" rel="#L222"><i class="icon-link"></i> 222</a>
+<a id="L223" href="#L223" rel="#L223"><i class="icon-link"></i> 223</a>
+<a id="L224" href="#L224" rel="#L224"><i class="icon-link"></i> 224</a>
+<a id="L225" href="#L225" rel="#L225"><i class="icon-link"></i> 225</a>
+<a id="L226" href="#L226" rel="#L226"><i class="icon-link"></i> 226</a>
+<a id="L227" href="#L227" rel="#L227"><i class="icon-link"></i> 227</a>
+<a id="L228" href="#L228" rel="#L228"><i class="icon-link"></i> 228</a>
+<a id="L229" href="#L229" rel="#L229"><i class="icon-link"></i> 229</a>
+<a id="L230" href="#L230" rel="#L230"><i class="icon-link"></i> 230</a>
+<a id="L231" href="#L231" rel="#L231"><i class="icon-link"></i> 231</a>
+<a id="L232" href="#L232" rel="#L232"><i class="icon-link"></i> 232</a>
+<a id="L233" href="#L233" rel="#L233"><i class="icon-link"></i> 233</a>
+<a id="L234" href="#L234" rel="#L234"><i class="icon-link"></i> 234</a>
+<a id="L235" href="#L235" rel="#L235"><i class="icon-link"></i> 235</a>
+<a id="L236" href="#L236" rel="#L236"><i class="icon-link"></i> 236</a>
+<a id="L237" href="#L237" rel="#L237"><i class="icon-link"></i> 237</a>
+<a id="L238" href="#L238" rel="#L238"><i class="icon-link"></i> 238</a>
+<a id="L239" href="#L239" rel="#L239"><i class="icon-link"></i> 239</a>
+<a id="L240" href="#L240" rel="#L240"><i class="icon-link"></i> 240</a>
+<a id="L241" href="#L241" rel="#L241"><i class="icon-link"></i> 241</a>
+<a id="L242" href="#L242" rel="#L242"><i class="icon-link"></i> 242</a>
+<a id="L243" href="#L243" rel="#L243"><i class="icon-link"></i> 243</a>
+<a id="L244" href="#L244" rel="#L244"><i class="icon-link"></i> 244</a>
+<a id="L245" href="#L245" rel="#L245"><i class="icon-link"></i> 245</a>
+<a id="L246" href="#L246" rel="#L246"><i class="icon-link"></i> 246</a>
+<a id="L247" href="#L247" rel="#L247"><i class="icon-link"></i> 247</a>
+<a id="L248" href="#L248" rel="#L248"><i class="icon-link"></i> 248</a>
+<a id="L249" href="#L249" rel="#L249"><i class="icon-link"></i> 249</a>
+<a id="L250" href="#L250" rel="#L250"><i class="icon-link"></i> 250</a>
+<a id="L251" href="#L251" rel="#L251"><i class="icon-link"></i> 251</a>
+<a id="L252" href="#L252" rel="#L252"><i class="icon-link"></i> 252</a>
+<a id="L253" href="#L253" rel="#L253"><i class="icon-link"></i> 253</a>
+<a id="L254" href="#L254" rel="#L254"><i class="icon-link"></i> 254</a>
+<a id="L255" href="#L255" rel="#L255"><i class="icon-link"></i> 255</a>
+<a id="L256" href="#L256" rel="#L256"><i class="icon-link"></i> 256</a>
+<a id="L257" href="#L257" rel="#L257"><i class="icon-link"></i> 257</a>
+<a id="L258" href="#L258" rel="#L258"><i class="icon-link"></i> 258</a>
+<a id="L259" href="#L259" rel="#L259"><i class="icon-link"></i> 259</a>
+<a id="L260" href="#L260" rel="#L260"><i class="icon-link"></i> 260</a>
+<a id="L261" href="#L261" rel="#L261"><i class="icon-link"></i> 261</a>
+<a id="L262" href="#L262" rel="#L262"><i class="icon-link"></i> 262</a>
+<a id="L263" href="#L263" rel="#L263"><i class="icon-link"></i> 263</a>
+<a id="L264" href="#L264" rel="#L264"><i class="icon-link"></i> 264</a>
+<a id="L265" href="#L265" rel="#L265"><i class="icon-link"></i> 265</a>
+<a id="L266" href="#L266" rel="#L266"><i class="icon-link"></i> 266</a>
+<a id="L267" href="#L267" rel="#L267"><i class="icon-link"></i> 267</a>
+<a id="L268" href="#L268" rel="#L268"><i class="icon-link"></i> 268</a>
+<a id="L269" href="#L269" rel="#L269"><i class="icon-link"></i> 269</a>
+<a id="L270" href="#L270" rel="#L270"><i class="icon-link"></i> 270</a>
+<a id="L271" href="#L271" rel="#L271"><i class="icon-link"></i> 271</a>
+<a id="L272" href="#L272" rel="#L272"><i class="icon-link"></i> 272</a>
+<a id="L273" href="#L273" rel="#L273"><i class="icon-link"></i> 273</a>
+<a id="L274" href="#L274" rel="#L274"><i class="icon-link"></i> 274</a>
+<a id="L275" href="#L275" rel="#L275"><i class="icon-link"></i> 275</a>
+<a id="L276" href="#L276" rel="#L276"><i class="icon-link"></i> 276</a>
+<a id="L277" href="#L277" rel="#L277"><i class="icon-link"></i> 277</a>
+<a id="L278" href="#L278" rel="#L278"><i class="icon-link"></i> 278</a>
+<a id="L279" href="#L279" rel="#L279"><i class="icon-link"></i> 279</a>
+<a id="L280" href="#L280" rel="#L280"><i class="icon-link"></i> 280</a>
+<a id="L281" href="#L281" rel="#L281"><i class="icon-link"></i> 281</a>
+<a id="L282" href="#L282" rel="#L282"><i class="icon-link"></i> 282</a>
+<a id="L283" href="#L283" rel="#L283"><i class="icon-link"></i> 283</a>
+<a id="L284" href="#L284" rel="#L284"><i class="icon-link"></i> 284</a>
+<a id="L285" href="#L285" rel="#L285"><i class="icon-link"></i> 285</a>
+<a id="L286" href="#L286" rel="#L286"><i class="icon-link"></i> 286</a>
+<a id="L287" href="#L287" rel="#L287"><i class="icon-link"></i> 287</a>
+<a id="L288" href="#L288" rel="#L288"><i class="icon-link"></i> 288</a>
+<a id="L289" href="#L289" rel="#L289"><i class="icon-link"></i> 289</a>
+<a id="L290" href="#L290" rel="#L290"><i class="icon-link"></i> 290</a>
+<a id="L291" href="#L291" rel="#L291"><i class="icon-link"></i> 291</a>
+<a id="L292" href="#L292" rel="#L292"><i class="icon-link"></i> 292</a>
+<a id="L293" href="#L293" rel="#L293"><i class="icon-link"></i> 293</a>
+<a id="L294" href="#L294" rel="#L294"><i class="icon-link"></i> 294</a>
+<a id="L295" href="#L295" rel="#L295"><i class="icon-link"></i> 295</a>
+<a id="L296" href="#L296" rel="#L296"><i class="icon-link"></i> 296</a>
+<a id="L297" href="#L297" rel="#L297"><i class="icon-link"></i> 297</a>
+<a id="L298" href="#L298" rel="#L298"><i class="icon-link"></i> 298</a>
+<a id="L299" href="#L299" rel="#L299"><i class="icon-link"></i> 299</a>
+<a id="L300" href="#L300" rel="#L300"><i class="icon-link"></i> 300</a>
+<a id="L301" href="#L301" rel="#L301"><i class="icon-link"></i> 301</a>
+<a id="L302" href="#L302" rel="#L302"><i class="icon-link"></i> 302</a>
+<a id="L303" href="#L303" rel="#L303"><i class="icon-link"></i> 303</a>
+<a id="L304" href="#L304" rel="#L304"><i class="icon-link"></i> 304</a>
+<a id="L305" href="#L305" rel="#L305"><i class="icon-link"></i> 305</a>
+<a id="L306" href="#L306" rel="#L306"><i class="icon-link"></i> 306</a>
+<a id="L307" href="#L307" rel="#L307"><i class="icon-link"></i> 307</a>
+<a id="L308" href="#L308" rel="#L308"><i class="icon-link"></i> 308</a>
+<a id="L309" href="#L309" rel="#L309"><i class="icon-link"></i> 309</a>
+<a id="L310" href="#L310" rel="#L310"><i class="icon-link"></i> 310</a>
+<a id="L311" href="#L311" rel="#L311"><i class="icon-link"></i> 311</a>
+<a id="L312" href="#L312" rel="#L312"><i class="icon-link"></i> 312</a>
+<a id="L313" href="#L313" rel="#L313"><i class="icon-link"></i> 313</a>
+<a id="L314" href="#L314" rel="#L314"><i class="icon-link"></i> 314</a>
+<a id="L315" href="#L315" rel="#L315"><i class="icon-link"></i> 315</a>
+<a id="L316" href="#L316" rel="#L316"><i class="icon-link"></i> 316</a>
+<a id="L317" href="#L317" rel="#L317"><i class="icon-link"></i> 317</a>
+<a id="L318" href="#L318" rel="#L318"><i class="icon-link"></i> 318</a>
+<a id="L319" href="#L319" rel="#L319"><i class="icon-link"></i> 319</a>
+<a id="L320" href="#L320" rel="#L320"><i class="icon-link"></i> 320</a>
+<a id="L321" href="#L321" rel="#L321"><i class="icon-link"></i> 321</a>
+<a id="L322" href="#L322" rel="#L322"><i class="icon-link"></i> 322</a>
+<a id="L323" href="#L323" rel="#L323"><i class="icon-link"></i> 323</a>
+<a id="L324" href="#L324" rel="#L324"><i class="icon-link"></i> 324</a>
+<a id="L325" href="#L325" rel="#L325"><i class="icon-link"></i> 325</a>
+<a id="L326" href="#L326" rel="#L326"><i class="icon-link"></i> 326</a>
+<a id="L327" href="#L327" rel="#L327"><i class="icon-link"></i> 327</a>
+<a id="L328" href="#L328" rel="#L328"><i class="icon-link"></i> 328</a>
+<a id="L329" href="#L329" rel="#L329"><i class="icon-link"></i> 329</a>
+<a id="L330" href="#L330" rel="#L330"><i class="icon-link"></i> 330</a>
+<a id="L331" href="#L331" rel="#L331"><i class="icon-link"></i> 331</a>
+<a id="L332" href="#L332" rel="#L332"><i class="icon-link"></i> 332</a>
+<a id="L333" href="#L333" rel="#L333"><i class="icon-link"></i> 333</a>
+<a id="L334" href="#L334" rel="#L334"><i class="icon-link"></i> 334</a>
+<a id="L335" href="#L335" rel="#L335"><i class="icon-link"></i> 335</a>
+<a id="L336" href="#L336" rel="#L336"><i class="icon-link"></i> 336</a>
+<a id="L337" href="#L337" rel="#L337"><i class="icon-link"></i> 337</a>
+<a id="L338" href="#L338" rel="#L338"><i class="icon-link"></i> 338</a>
+<a id="L339" href="#L339" rel="#L339"><i class="icon-link"></i> 339</a>
+<a id="L340" href="#L340" rel="#L340"><i class="icon-link"></i> 340</a>
+<a id="L341" href="#L341" rel="#L341"><i class="icon-link"></i> 341</a>
+<a id="L342" href="#L342" rel="#L342"><i class="icon-link"></i> 342</a>
+<a id="L343" href="#L343" rel="#L343"><i class="icon-link"></i> 343</a>
+<a id="L344" href="#L344" rel="#L344"><i class="icon-link"></i> 344</a>
+<a id="L345" href="#L345" rel="#L345"><i class="icon-link"></i> 345</a>
+<a id="L346" href="#L346" rel="#L346"><i class="icon-link"></i> 346</a>
+<a id="L347" href="#L347" rel="#L347"><i class="icon-link"></i> 347</a>
+<a id="L348" href="#L348" rel="#L348"><i class="icon-link"></i> 348</a>
+<a id="L349" href="#L349" rel="#L349"><i class="icon-link"></i> 349</a>
+<a id="L350" href="#L350" rel="#L350"><i class="icon-link"></i> 350</a>
+<a id="L351" href="#L351" rel="#L351"><i class="icon-link"></i> 351</a>
+<a id="L352" href="#L352" rel="#L352"><i class="icon-link"></i> 352</a>
+<a id="L353" href="#L353" rel="#L353"><i class="icon-link"></i> 353</a>
+<a id="L354" href="#L354" rel="#L354"><i class="icon-link"></i> 354</a>
+<a id="L355" href="#L355" rel="#L355"><i class="icon-link"></i> 355</a>
+<a id="L356" href="#L356" rel="#L356"><i class="icon-link"></i> 356</a>
+<a id="L357" href="#L357" rel="#L357"><i class="icon-link"></i> 357</a>
+<a id="L358" href="#L358" rel="#L358"><i class="icon-link"></i> 358</a>
+<a id="L359" href="#L359" rel="#L359"><i class="icon-link"></i> 359</a>
+<a id="L360" href="#L360" rel="#L360"><i class="icon-link"></i> 360</a>
+<a id="L361" href="#L361" rel="#L361"><i class="icon-link"></i> 361</a>
+<a id="L362" href="#L362" rel="#L362"><i class="icon-link"></i> 362</a>
+<a id="L363" href="#L363" rel="#L363"><i class="icon-link"></i> 363</a>
+<a id="L364" href="#L364" rel="#L364"><i class="icon-link"></i> 364</a>
+<a id="L365" href="#L365" rel="#L365"><i class="icon-link"></i> 365</a>
+<a id="L366" href="#L366" rel="#L366"><i class="icon-link"></i> 366</a>
+<a id="L367" href="#L367" rel="#L367"><i class="icon-link"></i> 367</a>
+<a id="L368" href="#L368" rel="#L368"><i class="icon-link"></i> 368</a>
+<a id="L369" href="#L369" rel="#L369"><i class="icon-link"></i> 369</a>
+<a id="L370" href="#L370" rel="#L370"><i class="icon-link"></i> 370</a>
+<a id="L371" href="#L371" rel="#L371"><i class="icon-link"></i> 371</a>
+<a id="L372" href="#L372" rel="#L372"><i class="icon-link"></i> 372</a>
+<a id="L373" href="#L373" rel="#L373"><i class="icon-link"></i> 373</a>
+<a id="L374" href="#L374" rel="#L374"><i class="icon-link"></i> 374</a>
+<a id="L375" href="#L375" rel="#L375"><i class="icon-link"></i> 375</a>
+<a id="L376" href="#L376" rel="#L376"><i class="icon-link"></i> 376</a>
+<a id="L377" href="#L377" rel="#L377"><i class="icon-link"></i> 377</a>
+<a id="L378" href="#L378" rel="#L378"><i class="icon-link"></i> 378</a>
+<a id="L379" href="#L379" rel="#L379"><i class="icon-link"></i> 379</a>
+<a id="L380" href="#L380" rel="#L380"><i class="icon-link"></i> 380</a>
+<a id="L381" href="#L381" rel="#L381"><i class="icon-link"></i> 381</a>
+<a id="L382" href="#L382" rel="#L382"><i class="icon-link"></i> 382</a>
+<a id="L383" href="#L383" rel="#L383"><i class="icon-link"></i> 383</a>
+<a id="L384" href="#L384" rel="#L384"><i class="icon-link"></i> 384</a>
+<a id="L385" href="#L385" rel="#L385"><i class="icon-link"></i> 385</a>
+<a id="L386" href="#L386" rel="#L386"><i class="icon-link"></i> 386</a>
+<a id="L387" href="#L387" rel="#L387"><i class="icon-link"></i> 387</a>
+<a id="L388" href="#L388" rel="#L388"><i class="icon-link"></i> 388</a>
+<a id="L389" href="#L389" rel="#L389"><i class="icon-link"></i> 389</a>
+<a id="L390" href="#L390" rel="#L390"><i class="icon-link"></i> 390</a>
+<a id="L391" href="#L391" rel="#L391"><i class="icon-link"></i> 391</a>
+<a id="L392" href="#L392" rel="#L392"><i class="icon-link"></i> 392</a>
+<a id="L393" href="#L393" rel="#L393"><i class="icon-link"></i> 393</a>
+<a id="L394" href="#L394" rel="#L394"><i class="icon-link"></i> 394</a>
+<a id="L395" href="#L395" rel="#L395"><i class="icon-link"></i> 395</a>
+<a id="L396" href="#L396" rel="#L396"><i class="icon-link"></i> 396</a>
+<a id="L397" href="#L397" rel="#L397"><i class="icon-link"></i> 397</a>
+<a id="L398" href="#L398" rel="#L398"><i class="icon-link"></i> 398</a>
+<a id="L399" href="#L399" rel="#L399"><i class="icon-link"></i> 399</a>
+<a id="L400" href="#L400" rel="#L400"><i class="icon-link"></i> 400</a>
+<a id="L401" href="#L401" rel="#L401"><i class="icon-link"></i> 401</a>
+<a id="L402" href="#L402" rel="#L402"><i class="icon-link"></i> 402</a>
+<a id="L403" href="#L403" rel="#L403"><i class="icon-link"></i> 403</a>
+<a id="L404" href="#L404" rel="#L404"><i class="icon-link"></i> 404</a>
+<a id="L405" href="#L405" rel="#L405"><i class="icon-link"></i> 405</a>
+<a id="L406" href="#L406" rel="#L406"><i class="icon-link"></i> 406</a>
+<a id="L407" href="#L407" rel="#L407"><i class="icon-link"></i> 407</a>
+<a id="L408" href="#L408" rel="#L408"><i class="icon-link"></i> 408</a>
+<a id="L409" href="#L409" rel="#L409"><i class="icon-link"></i> 409</a>
+<a id="L410" href="#L410" rel="#L410"><i class="icon-link"></i> 410</a>
+<a id="L411" href="#L411" rel="#L411"><i class="icon-link"></i> 411</a>
+<a id="L412" href="#L412" rel="#L412"><i class="icon-link"></i> 412</a>
+<a id="L413" href="#L413" rel="#L413"><i class="icon-link"></i> 413</a>
+<a id="L414" href="#L414" rel="#L414"><i class="icon-link"></i> 414</a>
+<a id="L415" href="#L415" rel="#L415"><i class="icon-link"></i> 415</a>
+<a id="L416" href="#L416" rel="#L416"><i class="icon-link"></i> 416</a>
+<a id="L417" href="#L417" rel="#L417"><i class="icon-link"></i> 417</a>
+<a id="L418" href="#L418" rel="#L418"><i class="icon-link"></i> 418</a>
+<a id="L419" href="#L419" rel="#L419"><i class="icon-link"></i> 419</a>
+<a id="L420" href="#L420" rel="#L420"><i class="icon-link"></i> 420</a>
+<a id="L421" href="#L421" rel="#L421"><i class="icon-link"></i> 421</a>
+<a id="L422" href="#L422" rel="#L422"><i class="icon-link"></i> 422</a>
+<a id="L423" href="#L423" rel="#L423"><i class="icon-link"></i> 423</a>
+<a id="L424" href="#L424" rel="#L424"><i class="icon-link"></i> 424</a>
+<a id="L425" href="#L425" rel="#L425"><i class="icon-link"></i> 425</a>
+<a id="L426" href="#L426" rel="#L426"><i class="icon-link"></i> 426</a>
+<a id="L427" href="#L427" rel="#L427"><i class="icon-link"></i> 427</a>
+<a id="L428" href="#L428" rel="#L428"><i class="icon-link"></i> 428</a>
+<a id="L429" href="#L429" rel="#L429"><i class="icon-link"></i> 429</a>
+<a id="L430" href="#L430" rel="#L430"><i class="icon-link"></i> 430</a>
+<a id="L431" href="#L431" rel="#L431"><i class="icon-link"></i> 431</a>
+<a id="L432" href="#L432" rel="#L432"><i class="icon-link"></i> 432</a>
+<a id="L433" href="#L433" rel="#L433"><i class="icon-link"></i> 433</a>
+<a id="L434" href="#L434" rel="#L434"><i class="icon-link"></i> 434</a>
+<a id="L435" href="#L435" rel="#L435"><i class="icon-link"></i> 435</a>
+<a id="L436" href="#L436" rel="#L436"><i class="icon-link"></i> 436</a>
+<a id="L437" href="#L437" rel="#L437"><i class="icon-link"></i> 437</a>
+<a id="L438" href="#L438" rel="#L438"><i class="icon-link"></i> 438</a>
+<a id="L439" href="#L439" rel="#L439"><i class="icon-link"></i> 439</a>
+<a id="L440" href="#L440" rel="#L440"><i class="icon-link"></i> 440</a>
+<a id="L441" href="#L441" rel="#L441"><i class="icon-link"></i> 441</a>
+<a id="L442" href="#L442" rel="#L442"><i class="icon-link"></i> 442</a>
+<a id="L443" href="#L443" rel="#L443"><i class="icon-link"></i> 443</a>
+<a id="L444" href="#L444" rel="#L444"><i class="icon-link"></i> 444</a>
+<a id="L445" href="#L445" rel="#L445"><i class="icon-link"></i> 445</a>
+<a id="L446" href="#L446" rel="#L446"><i class="icon-link"></i> 446</a>
+<a id="L447" href="#L447" rel="#L447"><i class="icon-link"></i> 447</a>
+<a id="L448" href="#L448" rel="#L448"><i class="icon-link"></i> 448</a>
+<a id="L449" href="#L449" rel="#L449"><i class="icon-link"></i> 449</a>
+<a id="L450" href="#L450" rel="#L450"><i class="icon-link"></i> 450</a>
+<a id="L451" href="#L451" rel="#L451"><i class="icon-link"></i> 451</a>
+<a id="L452" href="#L452" rel="#L452"><i class="icon-link"></i> 452</a>
+<a id="L453" href="#L453" rel="#L453"><i class="icon-link"></i> 453</a>
+<a id="L454" href="#L454" rel="#L454"><i class="icon-link"></i> 454</a>
+<a id="L455" href="#L455" rel="#L455"><i class="icon-link"></i> 455</a>
+<a id="L456" href="#L456" rel="#L456"><i class="icon-link"></i> 456</a>
+<a id="L457" href="#L457" rel="#L457"><i class="icon-link"></i> 457</a>
+<a id="L458" href="#L458" rel="#L458"><i class="icon-link"></i> 458</a>
+<a id="L459" href="#L459" rel="#L459"><i class="icon-link"></i> 459</a>
+<a id="L460" href="#L460" rel="#L460"><i class="icon-link"></i> 460</a>
+<a id="L461" href="#L461" rel="#L461"><i class="icon-link"></i> 461</a>
+<a id="L462" href="#L462" rel="#L462"><i class="icon-link"></i> 462</a>
+<a id="L463" href="#L463" rel="#L463"><i class="icon-link"></i> 463</a>
+<a id="L464" href="#L464" rel="#L464"><i class="icon-link"></i> 464</a>
+<a id="L465" href="#L465" rel="#L465"><i class="icon-link"></i> 465</a>
+<a id="L466" href="#L466" rel="#L466"><i class="icon-link"></i> 466</a>
+<a id="L467" href="#L467" rel="#L467"><i class="icon-link"></i> 467</a>
+<a id="L468" href="#L468" rel="#L468"><i class="icon-link"></i> 468</a>
+<a id="L469" href="#L469" rel="#L469"><i class="icon-link"></i> 469</a>
+<a id="L470" href="#L470" rel="#L470"><i class="icon-link"></i> 470</a>
+<a id="L471" href="#L471" rel="#L471"><i class="icon-link"></i> 471</a>
+<a id="L472" href="#L472" rel="#L472"><i class="icon-link"></i> 472</a>
+<a id="L473" href="#L473" rel="#L473"><i class="icon-link"></i> 473</a>
+<a id="L474" href="#L474" rel="#L474"><i class="icon-link"></i> 474</a>
+<a id="L475" href="#L475" rel="#L475"><i class="icon-link"></i> 475</a>
+<a id="L476" href="#L476" rel="#L476"><i class="icon-link"></i> 476</a>
+<a id="L477" href="#L477" rel="#L477"><i class="icon-link"></i> 477</a>
+<a id="L478" href="#L478" rel="#L478"><i class="icon-link"></i> 478</a>
+<a id="L479" href="#L479" rel="#L479"><i class="icon-link"></i> 479</a>
+<a id="L480" href="#L480" rel="#L480"><i class="icon-link"></i> 480</a>
+<a id="L481" href="#L481" rel="#L481"><i class="icon-link"></i> 481</a>
+<a id="L482" href="#L482" rel="#L482"><i class="icon-link"></i> 482</a>
+<a id="L483" href="#L483" rel="#L483"><i class="icon-link"></i> 483</a>
+<a id="L484" href="#L484" rel="#L484"><i class="icon-link"></i> 484</a>
+<a id="L485" href="#L485" rel="#L485"><i class="icon-link"></i> 485</a>
+<a id="L486" href="#L486" rel="#L486"><i class="icon-link"></i> 486</a>
+<a id="L487" href="#L487" rel="#L487"><i class="icon-link"></i> 487</a>
+<a id="L488" href="#L488" rel="#L488"><i class="icon-link"></i> 488</a>
+<a id="L489" href="#L489" rel="#L489"><i class="icon-link"></i> 489</a>
+<a id="L490" href="#L490" rel="#L490"><i class="icon-link"></i> 490</a>
+<a id="L491" href="#L491" rel="#L491"><i class="icon-link"></i> 491</a>
+<a id="L492" href="#L492" rel="#L492"><i class="icon-link"></i> 492</a>
+<a id="L493" href="#L493" rel="#L493"><i class="icon-link"></i> 493</a>
+<a id="L494" href="#L494" rel="#L494"><i class="icon-link"></i> 494</a>
+<a id="L495" href="#L495" rel="#L495"><i class="icon-link"></i> 495</a>
+<a id="L496" href="#L496" rel="#L496"><i class="icon-link"></i> 496</a>
+<a id="L497" href="#L497" rel="#L497"><i class="icon-link"></i> 497</a>
+<a id="L498" href="#L498" rel="#L498"><i class="icon-link"></i> 498</a>
+<a id="L499" href="#L499" rel="#L499"><i class="icon-link"></i> 499</a>
+<a id="L500" href="#L500" rel="#L500"><i class="icon-link"></i> 500</a>
+<a id="L501" href="#L501" rel="#L501"><i class="icon-link"></i> 501</a>
+<a id="L502" href="#L502" rel="#L502"><i class="icon-link"></i> 502</a>
+<a id="L503" href="#L503" rel="#L503"><i class="icon-link"></i> 503</a>
+<a id="L504" href="#L504" rel="#L504"><i class="icon-link"></i> 504</a>
+<a id="L505" href="#L505" rel="#L505"><i class="icon-link"></i> 505</a>
+<a id="L506" href="#L506" rel="#L506"><i class="icon-link"></i> 506</a>
+<a id="L507" href="#L507" rel="#L507"><i class="icon-link"></i> 507</a>
+<a id="L508" href="#L508" rel="#L508"><i class="icon-link"></i> 508</a>
+<a id="L509" href="#L509" rel="#L509"><i class="icon-link"></i> 509</a>
+<a id="L510" href="#L510" rel="#L510"><i class="icon-link"></i> 510</a>
+<a id="L511" href="#L511" rel="#L511"><i class="icon-link"></i> 511</a>
+<a id="L512" href="#L512" rel="#L512"><i class="icon-link"></i> 512</a>
+<a id="L513" href="#L513" rel="#L513"><i class="icon-link"></i> 513</a>
+<a id="L514" href="#L514" rel="#L514"><i class="icon-link"></i> 514</a>
+<a id="L515" href="#L515" rel="#L515"><i class="icon-link"></i> 515</a>
+<a id="L516" href="#L516" rel="#L516"><i class="icon-link"></i> 516</a>
+<a id="L517" href="#L517" rel="#L517"><i class="icon-link"></i> 517</a>
+<a id="L518" href="#L518" rel="#L518"><i class="icon-link"></i> 518</a>
+<a id="L519" href="#L519" rel="#L519"><i class="icon-link"></i> 519</a>
+<a id="L520" href="#L520" rel="#L520"><i class="icon-link"></i> 520</a>
+<a id="L521" href="#L521" rel="#L521"><i class="icon-link"></i> 521</a>
+<a id="L522" href="#L522" rel="#L522"><i class="icon-link"></i> 522</a>
+<a id="L523" href="#L523" rel="#L523"><i class="icon-link"></i> 523</a>
+<a id="L524" href="#L524" rel="#L524"><i class="icon-link"></i> 524</a>
+<a id="L525" href="#L525" rel="#L525"><i class="icon-link"></i> 525</a>
+<a id="L526" href="#L526" rel="#L526"><i class="icon-link"></i> 526</a>
+<a id="L527" href="#L527" rel="#L527"><i class="icon-link"></i> 527</a>
+<a id="L528" href="#L528" rel="#L528"><i class="icon-link"></i> 528</a>
+<a id="L529" href="#L529" rel="#L529"><i class="icon-link"></i> 529</a>
+<a id="L530" href="#L530" rel="#L530"><i class="icon-link"></i> 530</a>
+<a id="L531" href="#L531" rel="#L531"><i class="icon-link"></i> 531</a>
+<a id="L532" href="#L532" rel="#L532"><i class="icon-link"></i> 532</a>
+<a id="L533" href="#L533" rel="#L533"><i class="icon-link"></i> 533</a>
+<a id="L534" href="#L534" rel="#L534"><i class="icon-link"></i> 534</a>
+<a id="L535" href="#L535" rel="#L535"><i class="icon-link"></i> 535</a>
+<a id="L536" href="#L536" rel="#L536"><i class="icon-link"></i> 536</a>
+<a id="L537" href="#L537" rel="#L537"><i class="icon-link"></i> 537</a>
+<a id="L538" href="#L538" rel="#L538"><i class="icon-link"></i> 538</a>
+<a id="L539" href="#L539" rel="#L539"><i class="icon-link"></i> 539</a>
+<a id="L540" href="#L540" rel="#L540"><i class="icon-link"></i> 540</a>
+<a id="L541" href="#L541" rel="#L541"><i class="icon-link"></i> 541</a>
+<a id="L542" href="#L542" rel="#L542"><i class="icon-link"></i> 542</a>
+<a id="L543" href="#L543" rel="#L543"><i class="icon-link"></i> 543</a>
+<a id="L544" href="#L544" rel="#L544"><i class="icon-link"></i> 544</a>
+<a id="L545" href="#L545" rel="#L545"><i class="icon-link"></i> 545</a>
+<a id="L546" href="#L546" rel="#L546"><i class="icon-link"></i> 546</a>
+<a id="L547" href="#L547" rel="#L547"><i class="icon-link"></i> 547</a>
+<a id="L548" href="#L548" rel="#L548"><i class="icon-link"></i> 548</a>
+<a id="L549" href="#L549" rel="#L549"><i class="icon-link"></i> 549</a>
+<a id="L550" href="#L550" rel="#L550"><i class="icon-link"></i> 550</a>
+<a id="L551" href="#L551" rel="#L551"><i class="icon-link"></i> 551</a>
+<a id="L552" href="#L552" rel="#L552"><i class="icon-link"></i> 552</a>
+<a id="L553" href="#L553" rel="#L553"><i class="icon-link"></i> 553</a>
+<a id="L554" href="#L554" rel="#L554"><i class="icon-link"></i> 554</a>
+<a id="L555" href="#L555" rel="#L555"><i class="icon-link"></i> 555</a>
+<a id="L556" href="#L556" rel="#L556"><i class="icon-link"></i> 556</a>
+<a id="L557" href="#L557" rel="#L557"><i class="icon-link"></i> 557</a>
+<a id="L558" href="#L558" rel="#L558"><i class="icon-link"></i> 558</a>
+<a id="L559" href="#L559" rel="#L559"><i class="icon-link"></i> 559</a>
+<a id="L560" href="#L560" rel="#L560"><i class="icon-link"></i> 560</a>
+<a id="L561" href="#L561" rel="#L561"><i class="icon-link"></i> 561</a>
+<a id="L562" href="#L562" rel="#L562"><i class="icon-link"></i> 562</a>
+<a id="L563" href="#L563" rel="#L563"><i class="icon-link"></i> 563</a>
+<a id="L564" href="#L564" rel="#L564"><i class="icon-link"></i> 564</a>
+<a id="L565" href="#L565" rel="#L565"><i class="icon-link"></i> 565</a>
+<a id="L566" href="#L566" rel="#L566"><i class="icon-link"></i> 566</a>
+<a id="L567" href="#L567" rel="#L567"><i class="icon-link"></i> 567</a>
+<a id="L568" href="#L568" rel="#L568"><i class="icon-link"></i> 568</a>
+<a id="L569" href="#L569" rel="#L569"><i class="icon-link"></i> 569</a>
+<a id="L570" href="#L570" rel="#L570"><i class="icon-link"></i> 570</a>
+<a id="L571" href="#L571" rel="#L571"><i class="icon-link"></i> 571</a>
+<a id="L572" href="#L572" rel="#L572"><i class="icon-link"></i> 572</a>
+<a id="L573" href="#L573" rel="#L573"><i class="icon-link"></i> 573</a>
+<a id="L574" href="#L574" rel="#L574"><i class="icon-link"></i> 574</a>
+<a id="L575" href="#L575" rel="#L575"><i class="icon-link"></i> 575</a>
+<a id="L576" href="#L576" rel="#L576"><i class="icon-link"></i> 576</a>
+<a id="L577" href="#L577" rel="#L577"><i class="icon-link"></i> 577</a>
+<a id="L578" href="#L578" rel="#L578"><i class="icon-link"></i> 578</a>
+<a id="L579" href="#L579" rel="#L579"><i class="icon-link"></i> 579</a>
+<a id="L580" href="#L580" rel="#L580"><i class="icon-link"></i> 580</a>
+<a id="L581" href="#L581" rel="#L581"><i class="icon-link"></i> 581</a>
+<a id="L582" href="#L582" rel="#L582"><i class="icon-link"></i> 582</a>
+<a id="L583" href="#L583" rel="#L583"><i class="icon-link"></i> 583</a>
+<a id="L584" href="#L584" rel="#L584"><i class="icon-link"></i> 584</a>
+<a id="L585" href="#L585" rel="#L585"><i class="icon-link"></i> 585</a>
+<a id="L586" href="#L586" rel="#L586"><i class="icon-link"></i> 586</a>
+<a id="L587" href="#L587" rel="#L587"><i class="icon-link"></i> 587</a>
+<a id="L588" href="#L588" rel="#L588"><i class="icon-link"></i> 588</a>
+<a id="L589" href="#L589" rel="#L589"><i class="icon-link"></i> 589</a>
+<a id="L590" href="#L590" rel="#L590"><i class="icon-link"></i> 590</a>
+<a id="L591" href="#L591" rel="#L591"><i class="icon-link"></i> 591</a>
+<a id="L592" href="#L592" rel="#L592"><i class="icon-link"></i> 592</a>
+<a id="L593" href="#L593" rel="#L593"><i class="icon-link"></i> 593</a>
+<a id="L594" href="#L594" rel="#L594"><i class="icon-link"></i> 594</a>
+<a id="L595" href="#L595" rel="#L595"><i class="icon-link"></i> 595</a>
+<a id="L596" href="#L596" rel="#L596"><i class="icon-link"></i> 596</a>
+<a id="L597" href="#L597" rel="#L597"><i class="icon-link"></i> 597</a>
+<a id="L598" href="#L598" rel="#L598"><i class="icon-link"></i> 598</a>
+<a id="L599" href="#L599" rel="#L599"><i class="icon-link"></i> 599</a>
+<a id="L600" href="#L600" rel="#L600"><i class="icon-link"></i> 600</a>
+<a id="L601" href="#L601" rel="#L601"><i class="icon-link"></i> 601</a>
+<a id="L602" href="#L602" rel="#L602"><i class="icon-link"></i> 602</a>
+<a id="L603" href="#L603" rel="#L603"><i class="icon-link"></i> 603</a>
+<a id="L604" href="#L604" rel="#L604"><i class="icon-link"></i> 604</a>
+<a id="L605" href="#L605" rel="#L605"><i class="icon-link"></i> 605</a>
+<a id="L606" href="#L606" rel="#L606"><i class="icon-link"></i> 606</a>
+<a id="L607" href="#L607" rel="#L607"><i class="icon-link"></i> 607</a>
+<a id="L608" href="#L608" rel="#L608"><i class="icon-link"></i> 608</a>
+<a id="L609" href="#L609" rel="#L609"><i class="icon-link"></i> 609</a>
+<a id="L610" href="#L610" rel="#L610"><i class="icon-link"></i> 610</a>
+<a id="L611" href="#L611" rel="#L611"><i class="icon-link"></i> 611</a>
+<a id="L612" href="#L612" rel="#L612"><i class="icon-link"></i> 612</a>
+<a id="L613" href="#L613" rel="#L613"><i class="icon-link"></i> 613</a>
+<a id="L614" href="#L614" rel="#L614"><i class="icon-link"></i> 614</a>
+<a id="L615" href="#L615" rel="#L615"><i class="icon-link"></i> 615</a>
+<a id="L616" href="#L616" rel="#L616"><i class="icon-link"></i> 616</a>
+<a id="L617" href="#L617" rel="#L617"><i class="icon-link"></i> 617</a>
+<a id="L618" href="#L618" rel="#L618"><i class="icon-link"></i> 618</a>
+<a id="L619" href="#L619" rel="#L619"><i class="icon-link"></i> 619</a>
+<a id="L620" href="#L620" rel="#L620"><i class="icon-link"></i> 620</a>
+<a id="L621" href="#L621" rel="#L621"><i class="icon-link"></i> 621</a>
+<a id="L622" href="#L622" rel="#L622"><i class="icon-link"></i> 622</a>
+<a id="L623" href="#L623" rel="#L623"><i class="icon-link"></i> 623</a>
+<a id="L624" href="#L624" rel="#L624"><i class="icon-link"></i> 624</a>
+<a id="L625" href="#L625" rel="#L625"><i class="icon-link"></i> 625</a>
+<a id="L626" href="#L626" rel="#L626"><i class="icon-link"></i> 626</a>
+<a id="L627" href="#L627" rel="#L627"><i class="icon-link"></i> 627</a>
+<a id="L628" href="#L628" rel="#L628"><i class="icon-link"></i> 628</a>
+<a id="L629" href="#L629" rel="#L629"><i class="icon-link"></i> 629</a>
+<a id="L630" href="#L630" rel="#L630"><i class="icon-link"></i> 630</a>
+<a id="L631" href="#L631" rel="#L631"><i class="icon-link"></i> 631</a>
+<a id="L632" href="#L632" rel="#L632"><i class="icon-link"></i> 632</a>
+<a id="L633" href="#L633" rel="#L633"><i class="icon-link"></i> 633</a>
+<a id="L634" href="#L634" rel="#L634"><i class="icon-link"></i> 634</a>
+<a id="L635" href="#L635" rel="#L635"><i class="icon-link"></i> 635</a>
+<a id="L636" href="#L636" rel="#L636"><i class="icon-link"></i> 636</a>
+<a id="L637" href="#L637" rel="#L637"><i class="icon-link"></i> 637</a>
+<a id="L638" href="#L638" rel="#L638"><i class="icon-link"></i> 638</a>
+<a id="L639" href="#L639" rel="#L639"><i class="icon-link"></i> 639</a>
+<a id="L640" href="#L640" rel="#L640"><i class="icon-link"></i> 640</a>
+<a id="L641" href="#L641" rel="#L641"><i class="icon-link"></i> 641</a>
+<a id="L642" href="#L642" rel="#L642"><i class="icon-link"></i> 642</a>
+<a id="L643" href="#L643" rel="#L643"><i class="icon-link"></i> 643</a>
+<a id="L644" href="#L644" rel="#L644"><i class="icon-link"></i> 644</a>
+<a id="L645" href="#L645" rel="#L645"><i class="icon-link"></i> 645</a>
+<a id="L646" href="#L646" rel="#L646"><i class="icon-link"></i> 646</a>
+<a id="L647" href="#L647" rel="#L647"><i class="icon-link"></i> 647</a>
+<a id="L648" href="#L648" rel="#L648"><i class="icon-link"></i> 648</a>
+<a id="L649" href="#L649" rel="#L649"><i class="icon-link"></i> 649</a>
+<a id="L650" href="#L650" rel="#L650"><i class="icon-link"></i> 650</a>
+<a id="L651" href="#L651" rel="#L651"><i class="icon-link"></i> 651</a>
+<a id="L652" href="#L652" rel="#L652"><i class="icon-link"></i> 652</a>
+<a id="L653" href="#L653" rel="#L653"><i class="icon-link"></i> 653</a>
+<a id="L654" href="#L654" rel="#L654"><i class="icon-link"></i> 654</a>
+<a id="L655" href="#L655" rel="#L655"><i class="icon-link"></i> 655</a>
+<a id="L656" href="#L656" rel="#L656"><i class="icon-link"></i> 656</a>
+<a id="L657" href="#L657" rel="#L657"><i class="icon-link"></i> 657</a>
+<a id="L658" href="#L658" rel="#L658"><i class="icon-link"></i> 658</a>
+<a id="L659" href="#L659" rel="#L659"><i class="icon-link"></i> 659</a>
+<a id="L660" href="#L660" rel="#L660"><i class="icon-link"></i> 660</a>
+<a id="L661" href="#L661" rel="#L661"><i class="icon-link"></i> 661</a>
+<a id="L662" href="#L662" rel="#L662"><i class="icon-link"></i> 662</a>
+<a id="L663" href="#L663" rel="#L663"><i class="icon-link"></i> 663</a>
+<a id="L664" href="#L664" rel="#L664"><i class="icon-link"></i> 664</a>
+<a id="L665" href="#L665" rel="#L665"><i class="icon-link"></i> 665</a>
+<a id="L666" href="#L666" rel="#L666"><i class="icon-link"></i> 666</a>
+<a id="L667" href="#L667" rel="#L667"><i class="icon-link"></i> 667</a>
+<a id="L668" href="#L668" rel="#L668"><i class="icon-link"></i> 668</a>
+<a id="L669" href="#L669" rel="#L669"><i class="icon-link"></i> 669</a>
+<a id="L670" href="#L670" rel="#L670"><i class="icon-link"></i> 670</a>
+<a id="L671" href="#L671" rel="#L671"><i class="icon-link"></i> 671</a>
+<a id="L672" href="#L672" rel="#L672"><i class="icon-link"></i> 672</a>
+<a id="L673" href="#L673" rel="#L673"><i class="icon-link"></i> 673</a>
+<a id="L674" href="#L674" rel="#L674"><i class="icon-link"></i> 674</a></pre></td><td><div class="highlight"><pre><div id="LC1" class="line">                    GNU GENERAL PUBLIC LICENSE</div><div id="LC2" class="line">                       Version 3, 29 June 2007</div><div id="LC3" class="line"><br/></div><div id="LC4" class="line"> Copyright (C) 2007 Free Software Foundation, Inc. &lt;http://fsf.org/&gt;</div><div id="LC5" class="line"> Everyone is permitted to copy and distribute verbatim copies</div><div id="LC6" class="line"> of this license document, but changing it is not allowed.</div><div id="LC7" class="line"><br/></div><div id="LC8" class="line">                            Preamble</div><div id="LC9" class="line"><br/></div><div id="LC10" class="line">  The GNU General Public License is a free, copyleft license for</div><div id="LC11" class="line">software and other kinds of works.</div><div id="LC12" class="line"><br/></div><div id="LC13" class="line">  The licenses for most software and other practical works are designed</div><div id="LC14" class="line">to take away your freedom to share and change the works.  By contrast,</div><div id="LC15" class="line">the GNU General Public License is intended to guarantee your freedom to</div><div id="LC16" class="line">share and change all versions of a program--to make sure it remains free</div><div id="LC17" class="line">software for all its users.  We, the Free Software Foundation, use the</div><div id="LC18" class="line">GNU General Public License for most of our software; it applies also to</div><div id="LC19" class="line">any other work released this way by its authors.  You can apply it to</div><div id="LC20" class="line">your programs, too.</div><div id="LC21" class="line"><br/></div><div id="LC22" class="line">  When we speak of free software, we are referring to freedom, not</div><div id="LC23" class="line">price.  Our General Public Licenses are designed to make sure that you</div><div id="LC24" class="line">have the freedom to distribute copies of free software (and charge for</div><div id="LC25" class="line">them if you wish), that you receive source code or can get it if you</div><div id="LC26" class="line">want it, that you can change the software or use pieces of it in new</div><div id="LC27" class="line">free programs, and that you know you can do these things.</div><div id="LC28" class="line"><br/></div><div id="LC29" class="line">  To protect your rights, we need to prevent others from denying you</div><div id="LC30" class="line">these rights or asking you to surrender the rights.  Therefore, you have</div><div id="LC31" class="line">certain responsibilities if you distribute copies of the software, or if</div><div id="LC32" class="line">you modify it: responsibilities to respect the freedom of others.</div><div id="LC33" class="line"><br/></div><div id="LC34" class="line">  For example, if you distribute copies of such a program, whether</div><div id="LC35" class="line">gratis or for a fee, you must pass on to the recipients the same</div><div id="LC36" class="line">freedoms that you received.  You must make sure that they, too, receive</div><div id="LC37" class="line">or can get the source code.  And you must show them these terms so they</div><div id="LC38" class="line">know their rights.</div><div id="LC39" class="line"><br/></div><div id="LC40" class="line">  Developers that use the GNU GPL protect your rights with two steps:</div><div id="LC41" class="line">(1) assert copyright on the software, and (2) offer you this License</div><div id="LC42" class="line">giving you legal permission to copy, distribute and/or modify it.</div><div id="LC43" class="line"><br/></div><div id="LC44" class="line">  For the developers&#39; and authors&#39; protection, the GPL clearly explains</div><div id="LC45" class="line">that there is no warranty for this free software.  For both users&#39; and</div><div id="LC46" class="line">authors&#39; sake, the GPL requires that modified versions be marked as</div><div id="LC47" class="line">changed, so that their problems will not be attributed erroneously to</div><div id="LC48" class="line">authors of previous versions.</div><div id="LC49" class="line"><br/></div><div id="LC50" class="line">  Some devices are designed to deny users access to install or run</div><div id="LC51" class="line">modified versions of the software inside them, although the manufacturer</div><div id="LC52" class="line">can do so.  This is fundamentally incompatible with the aim of</div><div id="LC53" class="line">protecting users&#39; freedom to change the software.  The systematic</div><div id="LC54" class="line">pattern of such abuse occurs in the area of products for individuals to</div><div id="LC55" class="line">use, which is precisely where it is most unacceptable.  Therefore, we</div><div id="LC56" class="line">have designed this version of the GPL to prohibit the practice for those</div><div id="LC57" class="line">products.  If such problems arise substantially in other domains, we</div><div id="LC58" class="line">stand ready to extend this provision to those domains in future versions</div><div id="LC59" class="line">of the GPL, as needed to protect the freedom of users.</div><div id="LC60" class="line"><br/></div><div id="LC61" class="line">  Finally, every program is threatened constantly by software patents.</div><div id="LC62" class="line">States should not allow patents to restrict development and use of</div><div id="LC63" class="line">software on general-purpose computers, but in those that do, we wish to</div><div id="LC64" class="line">avoid the special danger that patents applied to a free program could</div><div id="LC65" class="line">make it effectively proprietary.  To prevent this, the GPL assures that</div><div id="LC66" class="line">patents cannot be used to render the program non-free.</div><div id="LC67" class="line"><br/></div><div id="LC68" class="line">  The precise terms and conditions for copying, distribution and</div><div id="LC69" class="line">modification follow.</div><div id="LC70" class="line"><br/></div><div id="LC71" class="line">                       TERMS AND CONDITIONS</div><div id="LC72" class="line"><br/></div><div id="LC73" class="line">  0. Definitions.</div><div id="LC74" class="line"><br/></div><div id="LC75" class="line">  &quot;This License&quot; refers to version 3 of the GNU General Public License.</div><div id="LC76" class="line"><br/></div><div id="LC77" class="line">  &quot;Copyright&quot; also means copyright-like laws that apply to other kinds of</div><div id="LC78" class="line">works, such as semiconductor masks.</div><div id="LC79" class="line"><br/></div><div id="LC80" class="line">  &quot;The Program&quot; refers to any copyrightable work licensed under this</div><div id="LC81" class="line">License.  Each licensee is addressed as &quot;you&quot;.  &quot;Licensees&quot; and</div><div id="LC82" class="line">&quot;recipients&quot; may be individuals or organizations.</div><div id="LC83" class="line"><br/></div><div id="LC84" class="line">  To &quot;modify&quot; a work means to copy from or adapt all or part of the work</div><div id="LC85" class="line">in a fashion requiring copyright permission, other than the making of an</div><div id="LC86" class="line">exact copy.  The resulting work is called a &quot;modified version&quot; of the</div><div id="LC87" class="line">earlier work or a work &quot;based on&quot; the earlier work.</div><div id="LC88" class="line"><br/></div><div id="LC89" class="line">  A &quot;covered work&quot; means either the unmodified Program or a work based</div><div id="LC90" class="line">on the Program.</div><div id="LC91" class="line"><br/></div><div id="LC92" class="line">  To &quot;propagate&quot; a work means to do anything with it that, without</div><div id="LC93" class="line">permission, would make you directly or secondarily liable for</div><div id="LC94" class="line">infringement under applicable copyright law, except executing it on a</div><div id="LC95" class="line">computer or modifying a private copy.  Propagation includes copying,</div><div id="LC96" class="line">distribution (with or without modification), making available to the</div><div id="LC97" class="line">public, and in some countries other activities as well.</div><div id="LC98" class="line"><br/></div><div id="LC99" class="line">  To &quot;convey&quot; a work means any kind of propagation that enables other</div><div id="LC100" class="line">parties to make or receive copies.  Mere interaction with a user through</div><div id="LC101" class="line">a computer network, with no transfer of a copy, is not conveying.</div><div id="LC102" class="line"><br/></div><div id="LC103" class="line">  An interactive user interface displays &quot;Appropriate Legal Notices&quot;</div><div id="LC104" class="line">to the extent that it includes a convenient and prominently visible</div><div id="LC105" class="line">feature that (1) displays an appropriate copyright notice, and (2)</div><div id="LC106" class="line">tells the user that there is no warranty for the work (except to the</div><div id="LC107" class="line">extent that warranties are provided), that licensees may convey the</div><div id="LC108" class="line">work under this License, and how to view a copy of this License.  If</div><div id="LC109" class="line">the interface presents a list of user commands or options, such as a</div><div id="LC110" class="line">menu, a prominent item in the list meets this criterion.</div><div id="LC111" class="line"><br/></div><div id="LC112" class="line">  1. Source Code.</div><div id="LC113" class="line"><br/></div><div id="LC114" class="line">  The &quot;source code&quot; for a work means the preferred form of the work</div><div id="LC115" class="line">for making modifications to it.  &quot;Object code&quot; means any non-source</div><div id="LC116" class="line">form of a work.</div><div id="LC117" class="line"><br/></div><div id="LC118" class="line">  A &quot;Standard Interface&quot; means an interface that either is an official</div><div id="LC119" class="line">standard defined by a recognized standards body, or, in the case of</div><div id="LC120" class="line">interfaces specified for a particular programming language, one that</div><div id="LC121" class="line">is widely used among developers working in that language.</div><div id="LC122" class="line"><br/></div><div id="LC123" class="line">  The &quot;System Libraries&quot; of an executable work include anything, other</div><div id="LC124" class="line">than the work as a whole, that (a) is included in the normal form of</div><div id="LC125" class="line">packaging a Major Component, but which is not part of that Major</div><div id="LC126" class="line">Component, and (b) serves only to enable use of the work with that</div><div id="LC127" class="line">Major Component, or to implement a Standard Interface for which an</div><div id="LC128" class="line">implementation is available to the public in source code form.  A</div><div id="LC129" class="line">&quot;Major Component&quot;, in this context, means a major essential component</div><div id="LC130" class="line">(kernel, window system, and so on) of the specific operating system</div><div id="LC131" class="line">(if any) on which the executable work runs, or a compiler used to</div><div id="LC132" class="line">produce the work, or an object code interpreter used to run it.</div><div id="LC133" class="line"><br/></div><div id="LC134" class="line">  The &quot;Corresponding Source&quot; for a work in object code form means all</div><div id="LC135" class="line">the source code needed to generate, install, and (for an executable</div><div id="LC136" class="line">work) run the object code and to modify the work, including scripts to</div><div id="LC137" class="line">control those activities.  However, it does not include the work&#39;s</div><div id="LC138" class="line">System Libraries, or general-purpose tools or generally available free</div><div id="LC139" class="line">programs which are used unmodified in performing those activities but</div><div id="LC140" class="line">which are not part of the work.  For example, Corresponding Source</div><div id="LC141" class="line">includes interface definition files associated with source files for</div><div id="LC142" class="line">the work, and the source code for shared libraries and dynamically</div><div id="LC143" class="line">linked subprograms that the work is specifically designed to require,</div><div id="LC144" class="line">such as by intimate data communication or control flow between those</div><div id="LC145" class="line">subprograms and other parts of the work.</div><div id="LC146" class="line"><br/></div><div id="LC147" class="line">  The Corresponding Source need not include anything that users</div><div id="LC148" class="line">can regenerate automatically from other parts of the Corresponding</div><div id="LC149" class="line">Source.</div><div id="LC150" class="line"><br/></div><div id="LC151" class="line">  The Corresponding Source for a work in source code form is that</div><div id="LC152" class="line">same work.</div><div id="LC153" class="line"><br/></div><div id="LC154" class="line">  2. Basic Permissions.</div><div id="LC155" class="line"><br/></div><div id="LC156" class="line">  All rights granted under this License are granted for the term of</div><div id="LC157" class="line">copyright on the Program, and are irrevocable provided the stated</div><div id="LC158" class="line">conditions are met.  This License explicitly affirms your unlimited</div><div id="LC159" class="line">permission to run the unmodified Program.  The output from running a</div><div id="LC160" class="line">covered work is covered by this License only if the output, given its</div><div id="LC161" class="line">content, constitutes a covered work.  This License acknowledges your</div><div id="LC162" class="line">rights of fair use or other equivalent, as provided by copyright law.</div><div id="LC163" class="line"><br/></div><div id="LC164" class="line">  You may make, run and propagate covered works that you do not</div><div id="LC165" class="line">convey, without conditions so long as your license otherwise remains</div><div id="LC166" class="line">in force.  You may convey covered works to others for the sole purpose</div><div id="LC167" class="line">of having them make modifications exclusively for you, or provide you</div><div id="LC168" class="line">with facilities for running those works, provided that you comply with</div><div id="LC169" class="line">the terms of this License in conveying all material for which you do</div><div id="LC170" class="line">not control copyright.  Those thus making or running the covered works</div><div id="LC171" class="line">for you must do so exclusively on your behalf, under your direction</div><div id="LC172" class="line">and control, on terms that prohibit them from making any copies of</div><div id="LC173" class="line">your copyrighted material outside their relationship with you.</div><div id="LC174" class="line"><br/></div><div id="LC175" class="line">  Conveying under any other circumstances is permitted solely under</div><div id="LC176" class="line">the conditions stated below.  Sublicensing is not allowed; section 10</div><div id="LC177" class="line">makes it unnecessary.</div><div id="LC178" class="line"><br/></div><div id="LC179" class="line">  3. Protecting Users&#39; Legal Rights From Anti-Circumvention Law.</div><div id="LC180" class="line"><br/></div><div id="LC181" class="line">  No covered work shall be deemed part of an effective technological</div><div id="LC182" class="line">measure under any applicable law fulfilling obligations under article</div><div id="LC183" class="line">11 of the WIPO copyright treaty adopted on 20 December 1996, or</div><div id="LC184" class="line">similar laws prohibiting or restricting circumvention of such</div><div id="LC185" class="line">measures.</div><div id="LC186" class="line"><br/></div><div id="LC187" class="line">  When you convey a covered work, you waive any legal power to forbid</div><div id="LC188" class="line">circumvention of technological measures to the extent such circumvention</div><div id="LC189" class="line">is effected by exercising rights under this License with respect to</div><div id="LC190" class="line">the covered work, and you disclaim any intention to limit operation or</div><div id="LC191" class="line">modification of the work as a means of enforcing, against the work&#39;s</div><div id="LC192" class="line">users, your or third parties&#39; legal rights to forbid circumvention of</div><div id="LC193" class="line">technological measures.</div><div id="LC194" class="line"><br/></div><div id="LC195" class="line">  4. Conveying Verbatim Copies.</div><div id="LC196" class="line"><br/></div><div id="LC197" class="line">  You may convey verbatim copies of the Program&#39;s source code as you</div><div id="LC198" class="line">receive it, in any medium, provided that you conspicuously and</div><div id="LC199" class="line">appropriately publish on each copy an appropriate copyright notice;</div><div id="LC200" class="line">keep intact all notices stating that this License and any</div><div id="LC201" class="line">non-permissive terms added in accord with section 7 apply to the code;</div><div id="LC202" class="line">keep intact all notices of the absence of any warranty; and give all</div><div id="LC203" class="line">recipients a copy of this License along with the Program.</div><div id="LC204" class="line"><br/></div><div id="LC205" class="line">  You may charge any price or no price for each copy that you convey,</div><div id="LC206" class="line">and you may offer support or warranty protection for a fee.</div><div id="LC207" class="line"><br/></div><div id="LC208" class="line">  5. Conveying Modified Source Versions.</div><div id="LC209" class="line"><br/></div><div id="LC210" class="line">  You may convey a work based on the Program, or the modifications to</div><div id="LC211" class="line">produce it from the Program, in the form of source code under the</div><div id="LC212" class="line">terms of section 4, provided that you also meet all of these conditions:</div><div id="LC213" class="line"><br/></div><div id="LC214" class="line">    a) The work must carry prominent notices stating that you modified</div><div id="LC215" class="line">    it, and giving a relevant date.</div><div id="LC216" class="line"><br/></div><div id="LC217" class="line">    b) The work must carry prominent notices stating that it is</div><div id="LC218" class="line">    released under this License and any conditions added under section</div><div id="LC219" class="line">    7.  This requirement modifies the requirement in section 4 to</div><div id="LC220" class="line">    &quot;keep intact all notices&quot;.</div><div id="LC221" class="line"><br/></div><div id="LC222" class="line">    c) You must license the entire work, as a whole, under this</div><div id="LC223" class="line">    License to anyone who comes into possession of a copy.  This</div><div id="LC224" class="line">    License will therefore apply, along with any applicable section 7</div><div id="LC225" class="line">    additional terms, to the whole of the work, and all its parts,</div><div id="LC226" class="line">    regardless of how they are packaged.  This License gives no</div><div id="LC227" class="line">    permission to license the work in any other way, but it does not</div><div id="LC228" class="line">    invalidate such permission if you have separately received it.</div><div id="LC229" class="line"><br/></div><div id="LC230" class="line">    d) If the work has interactive user interfaces, each must display</div><div id="LC231" class="line">    Appropriate Legal Notices; however, if the Program has interactive</div><div id="LC232" class="line">    interfaces that do not display Appropriate Legal Notices, your</div><div id="LC233" class="line">    work need not make them do so.</div><div id="LC234" class="line"><br/></div><div id="LC235" class="line">  A compilation of a covered work with other separate and independent</div><div id="LC236" class="line">works, which are not by their nature extensions of the covered work,</div><div id="LC237" class="line">and which are not combined with it such as to form a larger program,</div><div id="LC238" class="line">in or on a volume of a storage or distribution medium, is called an</div><div id="LC239" class="line">&quot;aggregate&quot; if the compilation and its resulting copyright are not</div><div id="LC240" class="line">used to limit the access or legal rights of the compilation&#39;s users</div><div id="LC241" class="line">beyond what the individual works permit.  Inclusion of a covered work</div><div id="LC242" class="line">in an aggregate does not cause this License to apply to the other</div><div id="LC243" class="line">parts of the aggregate.</div><div id="LC244" class="line"><br/></div><div id="LC245" class="line">  6. Conveying Non-Source Forms.</div><div id="LC246" class="line"><br/></div><div id="LC247" class="line">  You may convey a covered work in object code form under the terms</div><div id="LC248" class="line">of sections 4 and 5, provided that you also convey the</div><div id="LC249" class="line">machine-readable Corresponding Source under the terms of this License,</div><div id="LC250" class="line">in one of these ways:</div><div id="LC251" class="line"><br/></div><div id="LC252" class="line">    a) Convey the object code in, or embodied in, a physical product</div><div id="LC253" class="line">    (including a physical distribution medium), accompanied by the</div><div id="LC254" class="line">    Corresponding Source fixed on a durable physical medium</div><div id="LC255" class="line">    customarily used for software interchange.</div><div id="LC256" class="line"><br/></div><div id="LC257" class="line">    b) Convey the object code in, or embodied in, a physical product</div><div id="LC258" class="line">    (including a physical distribution medium), accompanied by a</div><div id="LC259" class="line">    written offer, valid for at least three years and valid for as</div><div id="LC260" class="line">    long as you offer spare parts or customer support for that product</div><div id="LC261" class="line">    model, to give anyone who possesses the object code either (1) a</div><div id="LC262" class="line">    copy of the Corresponding Source for all the software in the</div><div id="LC263" class="line">    product that is covered by this License, on a durable physical</div><div id="LC264" class="line">    medium customarily used for software interchange, for a price no</div><div id="LC265" class="line">    more than your reasonable cost of physically performing this</div><div id="LC266" class="line">    conveying of source, or (2) access to copy the</div><div id="LC267" class="line">    Corresponding Source from a network server at no charge.</div><div id="LC268" class="line"><br/></div><div id="LC269" class="line">    c) Convey individual copies of the object code with a copy of the</div><div id="LC270" class="line">    written offer to provide the Corresponding Source.  This</div><div id="LC271" class="line">    alternative is allowed only occasionally and noncommercially, and</div><div id="LC272" class="line">    only if you received the object code with such an offer, in accord</div><div id="LC273" class="line">    with subsection 6b.</div><div id="LC274" class="line"><br/></div><div id="LC275" class="line">    d) Convey the object code by offering access from a designated</div><div id="LC276" class="line">    place (gratis or for a charge), and offer equivalent access to the</div><div id="LC277" class="line">    Corresponding Source in the same way through the same place at no</div><div id="LC278" class="line">    further charge.  You need not require recipients to copy the</div><div id="LC279" class="line">    Corresponding Source along with the object code.  If the place to</div><div id="LC280" class="line">    copy the object code is a network server, the Corresponding Source</div><div id="LC281" class="line">    may be on a different server (operated by you or a third party)</div><div id="LC282" class="line">    that supports equivalent copying facilities, provided you maintain</div><div id="LC283" class="line">    clear directions next to the object code saying where to find the</div><div id="LC284" class="line">    Corresponding Source.  Regardless of what server hosts the</div><div id="LC285" class="line">    Corresponding Source, you remain obligated to ensure that it is</div><div id="LC286" class="line">    available for as long as needed to satisfy these requirements.</div><div id="LC287" class="line"><br/></div><div id="LC288" class="line">    e) Convey the object code using peer-to-peer transmission, provided</div><div id="LC289" class="line">    you inform other peers where the object code and Corresponding</div><div id="LC290" class="line">    Source of the work are being offered to the general public at no</div><div id="LC291" class="line">    charge under subsection 6d.</div><div id="LC292" class="line"><br/></div><div id="LC293" class="line">  A separable portion of the object code, whose source code is excluded</div><div id="LC294" class="line">from the Corresponding Source as a System Library, need not be</div><div id="LC295" class="line">included in conveying the object code work.</div><div id="LC296" class="line"><br/></div><div id="LC297" class="line">  A &quot;User Product&quot; is either (1) a &quot;consumer product&quot;, which means any</div><div id="LC298" class="line">tangible personal property which is normally used for personal, family,</div><div id="LC299" class="line">or household purposes, or (2) anything designed or sold for incorporation</div><div id="LC300" class="line">into a dwelling.  In determining whether a product is a consumer product,</div><div id="LC301" class="line">doubtful cases shall be resolved in favor of coverage.  For a particular</div><div id="LC302" class="line">product received by a particular user, &quot;normally used&quot; refers to a</div><div id="LC303" class="line">typical or common use of that class of product, regardless of the status</div><div id="LC304" class="line">of the particular user or of the way in which the particular user</div><div id="LC305" class="line">actually uses, or expects or is expected to use, the product.  A product</div><div id="LC306" class="line">is a consumer product regardless of whether the product has substantial</div><div id="LC307" class="line">commercial, industrial or non-consumer uses, unless such uses represent</div><div id="LC308" class="line">the only significant mode of use of the product.</div><div id="LC309" class="line"><br/></div><div id="LC310" class="line">  &quot;Installation Information&quot; for a User Product means any methods,</div><div id="LC311" class="line">procedures, authorization keys, or other information required to install</div><div id="LC312" class="line">and execute modified versions of a covered work in that User Product from</div><div id="LC313" class="line">a modified version of its Corresponding Source.  The information must</div><div id="LC314" class="line">suffice to ensure that the continued functioning of the modified object</div><div id="LC315" class="line">code is in no case prevented or interfered with solely because</div><div id="LC316" class="line">modification has been made.</div><div id="LC317" class="line"><br/></div><div id="LC318" class="line">  If you convey an object code work under this section in, or with, or</div><div id="LC319" class="line">specifically for use in, a User Product, and the conveying occurs as</div><div id="LC320" class="line">part of a transaction in which the right of possession and use of the</div><div id="LC321" class="line">User Product is transferred to the recipient in perpetuity or for a</div><div id="LC322" class="line">fixed term (regardless of how the transaction is characterized), the</div><div id="LC323" class="line">Corresponding Source conveyed under this section must be accompanied</div><div id="LC324" class="line">by the Installation Information.  But this requirement does not apply</div><div id="LC325" class="line">if neither you nor any third party retains the ability to install</div><div id="LC326" class="line">modified object code on the User Product (for example, the work has</div><div id="LC327" class="line">been installed in ROM).</div><div id="LC328" class="line"><br/></div><div id="LC329" class="line">  The requirement to provide Installation Information does not include a</div><div id="LC330" class="line">requirement to continue to provide support service, warranty, or updates</div><div id="LC331" class="line">for a work that has been modified or installed by the recipient, or for</div><div id="LC332" class="line">the User Product in which it has been modified or installed.  Access to a</div><div id="LC333" class="line">network may be denied when the modification itself materially and</div><div id="LC334" class="line">adversely affects the operation of the network or violates the rules and</div><div id="LC335" class="line">protocols for communication across the network.</div><div id="LC336" class="line"><br/></div><div id="LC337" class="line">  Corresponding Source conveyed, and Installation Information provided,</div><div id="LC338" class="line">in accord with this section must be in a format that is publicly</div><div id="LC339" class="line">documented (and with an implementation available to the public in</div><div id="LC340" class="line">source code form), and must require no special password or key for</div><div id="LC341" class="line">unpacking, reading or copying.</div><div id="LC342" class="line"><br/></div><div id="LC343" class="line">  7. Additional Terms.</div><div id="LC344" class="line"><br/></div><div id="LC345" class="line">  &quot;Additional permissions&quot; are terms that supplement the terms of this</div><div id="LC346" class="line">License by making exceptions from one or more of its conditions.</div><div id="LC347" class="line">Additional permissions that are applicable to the entire Program shall</div><div id="LC348" class="line">be treated as though they were included in this License, to the extent</div><div id="LC349" class="line">that they are valid under applicable law.  If additional permissions</div><div id="LC350" class="line">apply only to part of the Program, that part may be used separately</div><div id="LC351" class="line">under those permissions, but the entire Program remains governed by</div><div id="LC352" class="line">this License without regard to the additional permissions.</div><div id="LC353" class="line"><br/></div><div id="LC354" class="line">  When you convey a copy of a covered work, you may at your option</div><div id="LC355" class="line">remove any additional permissions from that copy, or from any part of</div><div id="LC356" class="line">it.  (Additional permissions may be written to require their own</div><div id="LC357" class="line">removal in certain cases when you modify the work.)  You may place</div><div id="LC358" class="line">additional permissions on material, added by you to a covered work,</div><div id="LC359" class="line">for which you have or can give appropriate copyright permission.</div><div id="LC360" class="line"><br/></div><div id="LC361" class="line">  Notwithstanding any other provision of this License, for material you</div><div id="LC362" class="line">add to a covered work, you may (if authorized by the copyright holders of</div><div id="LC363" class="line">that material) supplement the terms of this License with terms:</div><div id="LC364" class="line"><br/></div><div id="LC365" class="line">    a) Disclaiming warranty or limiting liability differently from the</div><div id="LC366" class="line">    terms of sections 15 and 16 of this License; or</div><div id="LC367" class="line"><br/></div><div id="LC368" class="line">    b) Requiring preservation of specified reasonable legal notices or</div><div id="LC369" class="line">    author attributions in that material or in the Appropriate Legal</div><div id="LC370" class="line">    Notices displayed by works containing it; or</div><div id="LC371" class="line"><br/></div><div id="LC372" class="line">    c) Prohibiting misrepresentation of the origin of that material, or</div><div id="LC373" class="line">    requiring that modified versions of such material be marked in</div><div id="LC374" class="line">    reasonable ways as different from the original version; or</div><div id="LC375" class="line"><br/></div><div id="LC376" class="line">    d) Limiting the use for publicity purposes of names of licensors or</div><div id="LC377" class="line">    authors of the material; or</div><div id="LC378" class="line"><br/></div><div id="LC379" class="line">    e) Declining to grant rights under trademark law for use of some</div><div id="LC380" class="line">    trade names, trademarks, or service marks; or</div><div id="LC381" class="line"><br/></div><div id="LC382" class="line">    f) Requiring indemnification of licensors and authors of that</div><div id="LC383" class="line">    material by anyone who conveys the material (or modified versions of</div><div id="LC384" class="line">    it) with contractual assumptions of liability to the recipient, for</div><div id="LC385" class="line">    any liability that these contractual assumptions directly impose on</div><div id="LC386" class="line">    those licensors and authors.</div><div id="LC387" class="line"><br/></div><div id="LC388" class="line">  All other non-permissive additional terms are considered &quot;further</div><div id="LC389" class="line">restrictions&quot; within the meaning of section 10.  If the Program as you</div><div id="LC390" class="line">received it, or any part of it, contains a notice stating that it is</div><div id="LC391" class="line">governed by this License along with a term that is a further</div><div id="LC392" class="line">restriction, you may remove that term.  If a license document contains</div><div id="LC393" class="line">a further restriction but permits relicensing or conveying under this</div><div id="LC394" class="line">License, you may add to a covered work material governed by the terms</div><div id="LC395" class="line">of that license document, provided that the further restriction does</div><div id="LC396" class="line">not survive such relicensing or conveying.</div><div id="LC397" class="line"><br/></div><div id="LC398" class="line">  If you add terms to a covered work in accord with this section, you</div><div id="LC399" class="line">must place, in the relevant source files, a statement of the</div><div id="LC400" class="line">additional terms that apply to those files, or a notice indicating</div><div id="LC401" class="line">where to find the applicable terms.</div><div id="LC402" class="line"><br/></div><div id="LC403" class="line">  Additional terms, permissive or non-permissive, may be stated in the</div><div id="LC404" class="line">form of a separately written license, or stated as exceptions;</div><div id="LC405" class="line">the above requirements apply either way.</div><div id="LC406" class="line"><br/></div><div id="LC407" class="line">  8. Termination.</div><div id="LC408" class="line"><br/></div><div id="LC409" class="line">  You may not propagate or modify a covered work except as expressly</div><div id="LC410" class="line">provided under this License.  Any attempt otherwise to propagate or</div><div id="LC411" class="line">modify it is void, and will automatically terminate your rights under</div><div id="LC412" class="line">this License (including any patent licenses granted under the third</div><div id="LC413" class="line">paragraph of section 11).</div><div id="LC414" class="line"><br/></div><div id="LC415" class="line">  However, if you cease all violation of this License, then your</div><div id="LC416" class="line">license from a particular copyright holder is reinstated (a)</div><div id="LC417" class="line">provisionally, unless and until the copyright holder explicitly and</div><div id="LC418" class="line">finally terminates your license, and (b) permanently, if the copyright</div><div id="LC419" class="line">holder fails to notify you of the violation by some reasonable means</div><div id="LC420" class="line">prior to 60 days after the cessation.</div><div id="LC421" class="line"><br/></div><div id="LC422" class="line">  Moreover, your license from a particular copyright holder is</div><div id="LC423" class="line">reinstated permanently if the copyright holder notifies you of the</div><div id="LC424" class="line">violation by some reasonable means, this is the first time you have</div><div id="LC425" class="line">received notice of violation of this License (for any work) from that</div><div id="LC426" class="line">copyright holder, and you cure the violation prior to 30 days after</div><div id="LC427" class="line">your receipt of the notice.</div><div id="LC428" class="line"><br/></div><div id="LC429" class="line">  Termination of your rights under this section does not terminate the</div><div id="LC430" class="line">licenses of parties who have received copies or rights from you under</div><div id="LC431" class="line">this License.  If your rights have been terminated and not permanently</div><div id="LC432" class="line">reinstated, you do not qualify to receive new licenses for the same</div><div id="LC433" class="line">material under section 10.</div><div id="LC434" class="line"><br/></div><div id="LC435" class="line">  9. Acceptance Not Required for Having Copies.</div><div id="LC436" class="line"><br/></div><div id="LC437" class="line">  You are not required to accept this License in order to receive or</div><div id="LC438" class="line">run a copy of the Program.  Ancillary propagation of a covered work</div><div id="LC439" class="line">occurring solely as a consequence of using peer-to-peer transmission</div><div id="LC440" class="line">to receive a copy likewise does not require acceptance.  However,</div><div id="LC441" class="line">nothing other than this License grants you permission to propagate or</div><div id="LC442" class="line">modify any covered work.  These actions infringe copyright if you do</div><div id="LC443" class="line">not accept this License.  Therefore, by modifying or propagating a</div><div id="LC444" class="line">covered work, you indicate your acceptance of this License to do so.</div><div id="LC445" class="line"><br/></div><div id="LC446" class="line">  10. Automatic Licensing of Downstream Recipients.</div><div id="LC447" class="line"><br/></div><div id="LC448" class="line">  Each time you convey a covered work, the recipient automatically</div><div id="LC449" class="line">receives a license from the original licensors, to run, modify and</div><div id="LC450" class="line">propagate that work, subject to this License.  You are not responsible</div><div id="LC451" class="line">for enforcing compliance by third parties with this License.</div><div id="LC452" class="line"><br/></div><div id="LC453" class="line">  An &quot;entity transaction&quot; is a transaction transferring control of an</div><div id="LC454" class="line">organization, or substantially all assets of one, or subdividing an</div><div id="LC455" class="line">organization, or merging organizations.  If propagation of a covered</div><div id="LC456" class="line">work results from an entity transaction, each party to that</div><div id="LC457" class="line">transaction who receives a copy of the work also receives whatever</div><div id="LC458" class="line">licenses to the work the party&#39;s predecessor in interest had or could</div><div id="LC459" class="line">give under the previous paragraph, plus a right to possession of the</div><div id="LC460" class="line">Corresponding Source of the work from the predecessor in interest, if</div><div id="LC461" class="line">the predecessor has it or can get it with reasonable efforts.</div><div id="LC462" class="line"><br/></div><div id="LC463" class="line">  You may not impose any further restrictions on the exercise of the</div><div id="LC464" class="line">rights granted or affirmed under this License.  For example, you may</div><div id="LC465" class="line">not impose a license fee, royalty, or other charge for exercise of</div><div id="LC466" class="line">rights granted under this License, and you may not initiate litigation</div><div id="LC467" class="line">(including a cross-claim or counterclaim in a lawsuit) alleging that</div><div id="LC468" class="line">any patent claim is infringed by making, using, selling, offering for</div><div id="LC469" class="line">sale, or importing the Program or any portion of it.</div><div id="LC470" class="line"><br/></div><div id="LC471" class="line">  11. Patents.</div><div id="LC472" class="line"><br/></div><div id="LC473" class="line">  A &quot;contributor&quot; is a copyright holder who authorizes use under this</div><div id="LC474" class="line">License of the Program or a work on which the Program is based.  The</div><div id="LC475" class="line">work thus licensed is called the contributor&#39;s &quot;contributor version&quot;.</div><div id="LC476" class="line"><br/></div><div id="LC477" class="line">  A contributor&#39;s &quot;essential patent claims&quot; are all patent claims</div><div id="LC478" class="line">owned or controlled by the contributor, whether already acquired or</div><div id="LC479" class="line">hereafter acquired, that would be infringed by some manner, permitted</div><div id="LC480" class="line">by this License, of making, using, or selling its contributor version,</div><div id="LC481" class="line">but do not include claims that would be infringed only as a</div><div id="LC482" class="line">consequence of further modification of the contributor version.  For</div><div id="LC483" class="line">purposes of this definition, &quot;control&quot; includes the right to grant</div><div id="LC484" class="line">patent sublicenses in a manner consistent with the requirements of</div><div id="LC485" class="line">this License.</div><div id="LC486" class="line"><br/></div><div id="LC487" class="line">  Each contributor grants you a non-exclusive, worldwide, royalty-free</div><div id="LC488" class="line">patent license under the contributor&#39;s essential patent claims, to</div><div id="LC489" class="line">make, use, sell, offer for sale, import and otherwise run, modify and</div><div id="LC490" class="line">propagate the contents of its contributor version.</div><div id="LC491" class="line"><br/></div><div id="LC492" class="line">  In the following three paragraphs, a &quot;patent license&quot; is any express</div><div id="LC493" class="line">agreement or commitment, however denominated, not to enforce a patent</div><div id="LC494" class="line">(such as an express permission to practice a patent or covenant not to</div><div id="LC495" class="line">sue for patent infringement).  To &quot;grant&quot; such a patent license to a</div><div id="LC496" class="line">party means to make such an agreement or commitment not to enforce a</div><div id="LC497" class="line">patent against the party.</div><div id="LC498" class="line"><br/></div><div id="LC499" class="line">  If you convey a covered work, knowingly relying on a patent license,</div><div id="LC500" class="line">and the Corresponding Source of the work is not available for anyone</div><div id="LC501" class="line">to copy, free of charge and under the terms of this License, through a</div><div id="LC502" class="line">publicly available network server or other readily accessible means,</div><div id="LC503" class="line">then you must either (1) cause the Corresponding Source to be so</div><div id="LC504" class="line">available, or (2) arrange to deprive yourself of the benefit of the</div><div id="LC505" class="line">patent license for this particular work, or (3) arrange, in a manner</div><div id="LC506" class="line">consistent with the requirements of this License, to extend the patent</div><div id="LC507" class="line">license to downstream recipients.  &quot;Knowingly relying&quot; means you have</div><div id="LC508" class="line">actual knowledge that, but for the patent license, your conveying the</div><div id="LC509" class="line">covered work in a country, or your recipient&#39;s use of the covered work</div><div id="LC510" class="line">in a country, would infringe one or more identifiable patents in that</div><div id="LC511" class="line">country that you have reason to believe are valid.</div><div id="LC512" class="line"><br/></div><div id="LC513" class="line">  If, pursuant to or in connection with a single transaction or</div><div id="LC514" class="line">arrangement, you convey, or propagate by procuring conveyance of, a</div><div id="LC515" class="line">covered work, and grant a patent license to some of the parties</div><div id="LC516" class="line">receiving the covered work authorizing them to use, propagate, modify</div><div id="LC517" class="line">or convey a specific copy of the covered work, then the patent license</div><div id="LC518" class="line">you grant is automatically extended to all recipients of the covered</div><div id="LC519" class="line">work and works based on it.</div><div id="LC520" class="line"><br/></div><div id="LC521" class="line">  A patent license is &quot;discriminatory&quot; if it does not include within</div><div id="LC522" class="line">the scope of its coverage, prohibits the exercise of, or is</div><div id="LC523" class="line">conditioned on the non-exercise of one or more of the rights that are</div><div id="LC524" class="line">specifically granted under this License.  You may not convey a covered</div><div id="LC525" class="line">work if you are a party to an arrangement with a third party that is</div><div id="LC526" class="line">in the business of distributing software, under which you make payment</div><div id="LC527" class="line">to the third party based on the extent of your activity of conveying</div><div id="LC528" class="line">the work, and under which the third party grants, to any of the</div><div id="LC529" class="line">parties who would receive the covered work from you, a discriminatory</div><div id="LC530" class="line">patent license (a) in connection with copies of the covered work</div><div id="LC531" class="line">conveyed by you (or copies made from those copies), or (b) primarily</div><div id="LC532" class="line">for and in connection with specific products or compilations that</div><div id="LC533" class="line">contain the covered work, unless you entered into that arrangement,</div><div id="LC534" class="line">or that patent license was granted, prior to 28 March 2007.</div><div id="LC535" class="line"><br/></div><div id="LC536" class="line">  Nothing in this License shall be construed as excluding or limiting</div><div id="LC537" class="line">any implied license or other defenses to infringement that may</div><div id="LC538" class="line">otherwise be available to you under applicable patent law.</div><div id="LC539" class="line"><br/></div><div id="LC540" class="line">  12. No Surrender of Others&#39; Freedom.</div><div id="LC541" class="line"><br/></div><div id="LC542" class="line">  If conditions are imposed on you (whether by court order, agreement or</div><div id="LC543" class="line">otherwise) that contradict the conditions of this License, they do not</div><div id="LC544" class="line">excuse you from the conditions of this License.  If you cannot convey a</div><div id="LC545" class="line">covered work so as to satisfy simultaneously your obligations under this</div><div id="LC546" class="line">License and any other pertinent obligations, then as a consequence you may</div><div id="LC547" class="line">not convey it at all.  For example, if you agree to terms that obligate you</div><div id="LC548" class="line">to collect a royalty for further conveying from those to whom you convey</div><div id="LC549" class="line">the Program, the only way you could satisfy both those terms and this</div><div id="LC550" class="line">License would be to refrain entirely from conveying the Program.</div><div id="LC551" class="line"><br/></div><div id="LC552" class="line">  13. Use with the GNU Affero General Public License.</div><div id="LC553" class="line"><br/></div><div id="LC554" class="line">  Notwithstanding any other provision of this License, you have</div><div id="LC555" class="line">permission to link or combine any covered work with a work licensed</div><div id="LC556" class="line">under version 3 of the GNU Affero General Public License into a single</div><div id="LC557" class="line">combined work, and to convey the resulting work.  The terms of this</div><div id="LC558" class="line">License will continue to apply to the part which is the covered work,</div><div id="LC559" class="line">but the special requirements of the GNU Affero General Public License,</div><div id="LC560" class="line">section 13, concerning interaction through a network will apply to the</div><div id="LC561" class="line">combination as such.</div><div id="LC562" class="line"><br/></div><div id="LC563" class="line">  14. Revised Versions of this License.</div><div id="LC564" class="line"><br/></div><div id="LC565" class="line">  The Free Software Foundation may publish revised and/or new versions of</div><div id="LC566" class="line">the GNU General Public License from time to time.  Such new versions will</div><div id="LC567" class="line">be similar in spirit to the present version, but may differ in detail to</div><div id="LC568" class="line">address new problems or concerns.</div><div id="LC569" class="line"><br/></div><div id="LC570" class="line">  Each version is given a distinguishing version number.  If the</div><div id="LC571" class="line">Program specifies that a certain numbered version of the GNU General</div><div id="LC572" class="line">Public License &quot;or any later version&quot; applies to it, you have the</div><div id="LC573" class="line">option of following the terms and conditions either of that numbered</div><div id="LC574" class="line">version or of any later version published by the Free Software</div><div id="LC575" class="line">Foundation.  If the Program does not specify a version number of the</div><div id="LC576" class="line">GNU General Public License, you may choose any version ever published</div><div id="LC577" class="line">by the Free Software Foundation.</div><div id="LC578" class="line"><br/></div><div id="LC579" class="line">  If the Program specifies that a proxy can decide which future</div><div id="LC580" class="line">versions of the GNU General Public License can be used, that proxy&#39;s</div><div id="LC581" class="line">public statement of acceptance of a version permanently authorizes you</div><div id="LC582" class="line">to choose that version for the Program.</div><div id="LC583" class="line"><br/></div><div id="LC584" class="line">  Later license versions may give you additional or different</div><div id="LC585" class="line">permissions.  However, no additional obligations are imposed on any</div><div id="LC586" class="line">author or copyright holder as a result of your choosing to follow a</div><div id="LC587" class="line">later version.</div><div id="LC588" class="line"><br/></div><div id="LC589" class="line">  15. Disclaimer of Warranty.</div><div id="LC590" class="line"><br/></div><div id="LC591" class="line">  THERE IS NO WARRANTY FOR THE PROGRAM, TO THE EXTENT PERMITTED BY</div><div id="LC592" class="line">APPLICABLE LAW.  EXCEPT WHEN OTHERWISE STATED IN WRITING THE COPYRIGHT</div><div id="LC593" class="line">HOLDERS AND/OR OTHER PARTIES PROVIDE THE PROGRAM &quot;AS IS&quot; WITHOUT WARRANTY</div><div id="LC594" class="line">OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO,</div><div id="LC595" class="line">THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR</div><div id="LC596" class="line">PURPOSE.  THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE PROGRAM</div><div id="LC597" class="line">IS WITH YOU.  SHOULD THE PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF</div><div id="LC598" class="line">ALL NECESSARY SERVICING, REPAIR OR CORRECTION.</div><div id="LC599" class="line"><br/></div><div id="LC600" class="line">  16. Limitation of Liability.</div><div id="LC601" class="line"><br/></div><div id="LC602" class="line">  IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING</div><div id="LC603" class="line">WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MODIFIES AND/OR CONVEYS</div><div id="LC604" class="line">THE PROGRAM AS PERMITTED ABOVE, BE LIABLE TO YOU FOR DAMAGES, INCLUDING ANY</div><div id="LC605" class="line">GENERAL, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE</div><div id="LC606" class="line">USE OR INABILITY TO USE THE PROGRAM (INCLUDING BUT NOT LIMITED TO LOSS OF</div><div id="LC607" class="line">DATA OR DATA BEING RENDERED INACCURATE OR LOSSES SUSTAINED BY YOU OR THIRD</div><div id="LC608" class="line">PARTIES OR A FAILURE OF THE PROGRAM TO OPERATE WITH ANY OTHER PROGRAMS),</div><div id="LC609" class="line">EVEN IF SUCH HOLDER OR OTHER PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF</div><div id="LC610" class="line">SUCH DAMAGES.</div><div id="LC611" class="line"><br/></div><div id="LC612" class="line">  17. Interpretation of Sections 15 and 16.</div><div id="LC613" class="line"><br/></div><div id="LC614" class="line">  If the disclaimer of warranty and limitation of liability provided</div><div id="LC615" class="line">above cannot be given local legal effect according to their terms,</div><div id="LC616" class="line">reviewing courts shall apply local law that most closely approximates</div><div id="LC617" class="line">an absolute waiver of all civil liability in connection with the</div><div id="LC618" class="line">Program, unless a warranty or assumption of liability accompanies a</div><div id="LC619" class="line">copy of the Program in return for a fee.</div><div id="LC620" class="line"><br/></div><div id="LC621" class="line">                     END OF TERMS AND CONDITIONS</div><div id="LC622" class="line"><br/></div><div id="LC623" class="line">            How to Apply These Terms to Your New Programs</div><div id="LC624" class="line"><br/></div><div id="LC625" class="line">  If you develop a new program, and you want it to be of the greatest</div><div id="LC626" class="line">possible use to the public, the best way to achieve this is to make it</div><div id="LC627" class="line">free software which everyone can redistribute and change under these terms.</div><div id="LC628" class="line"><br/></div><div id="LC629" class="line">  To do so, attach the following notices to the program.  It is safest</div><div id="LC630" class="line">to attach them to the start of each source file to most effectively</div><div id="LC631" class="line">state the exclusion of warranty; and each file should have at least</div><div id="LC632" class="line">the &quot;copyright&quot; line and a pointer to where the full notice is found.</div><div id="LC633" class="line"><br/></div><div id="LC634" class="line">    &lt;one line to give the program&#39;s name and a brief idea of what it does.&gt;</div><div id="LC635" class="line">    Copyright (C) &lt;year&gt;  &lt;name of author&gt;</div><div id="LC636" class="line"><br/></div><div id="LC637" class="line">    This program is free software: you can redistribute it and/or modify</div><div id="LC638" class="line">    it under the terms of the GNU General Public License as published by</div><div id="LC639" class="line">    the Free Software Foundation, either version 3 of the License, or</div><div id="LC640" class="line">    (at your option) any later version.</div><div id="LC641" class="line"><br/></div><div id="LC642" class="line">    This program is distributed in the hope that it will be useful,</div><div id="LC643" class="line">    but WITHOUT ANY WARRANTY; without even the implied warranty of</div><div id="LC644" class="line">    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the</div><div id="LC645" class="line">    GNU General Public License for more details.</div><div id="LC646" class="line"><br/></div><div id="LC647" class="line">    You should have received a copy of the GNU General Public License</div><div id="LC648" class="line">    along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.</div><div id="LC649" class="line"><br/></div><div id="LC650" class="line">Also add information on how to contact you by electronic and paper mail.</div><div id="LC651" class="line"><br/></div><div id="LC652" class="line">  If the program does terminal interaction, make it output a short</div><div id="LC653" class="line">notice like this when it starts in an interactive mode:</div><div id="LC654" class="line"><br/></div><div id="LC655" class="line">    &lt;program&gt;  Copyright (C) &lt;year&gt;  &lt;name of author&gt;</div><div id="LC656" class="line">    This program comes with ABSOLUTELY NO WARRANTY; for details type `show w&#39;.</div><div id="LC657" class="line">    This is free software, and you are welcome to redistribute it</div><div id="LC658" class="line">    under certain conditions; type `show c&#39; for details.</div><div id="LC659" class="line"><br/></div><div id="LC660" class="line">The hypothetical commands `show w&#39; and `show c&#39; should show the appropriate</div><div id="LC661" class="line">parts of the General Public License.  Of course, your program&#39;s commands</div><div id="LC662" class="line">might be different; for a GUI interface, you would use an &quot;about box&quot;.</div><div id="LC663" class="line"><br/></div><div id="LC664" class="line">  You should also get your employer (if you work as a programmer) or school,</div><div id="LC665" class="line">if any, to sign a &quot;copyright disclaimer&quot; for the program, if necessary.</div><div id="LC666" class="line">For more information on this, and how to apply and follow the GNU GPL, see</div><div id="LC667" class="line">&lt;http://www.gnu.org/licenses/&gt;.</div><div id="LC668" class="line"><br/></div><div id="LC669" class="line">  The GNU General Public License does not permit incorporating your program</div><div id="LC670" class="line">into proprietary programs.  If your program is a subroutine library, you</div><div id="LC671" class="line">may consider it more useful to permit linking proprietary applications with</div><div id="LC672" class="line">the library.  If this is what you want to do, use the GNU Lesser General</div><div id="LC673" class="line">Public License instead of this License.  But first, please read</div><div id="LC674" class="line">&lt;http://www.gnu.org/philosophy/why-not-lgpl.html&gt;.</div></pre></div></td></tr></table>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class='modal hide' id='modal-remove-blob'>
+<div class='modal-header'>
+<a class='close' data-dismiss='modal' href='#'>×</a>
+<h3 class='page-title'>Remove COPYING.txt</h3>
+<p class='light'>
+From branch
+<strong>master</strong>
+</p>
+</div>
+<div class='modal-body'>
+<form accept-charset="UTF-8" action="/gitlab/attention/2-git-repository-template/blob/master/COPYING.txt" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="_method" type="hidden" value="delete" /><input name="authenticity_token" type="hidden" value="VT7GNQWMIAr1w24PN1/X+IeDlB4NicZ7r1dgHmiHYD0=" /></div>
+<div class='control-group commit_message-group'>
+<label class="control-label" for="commit_message">Commit message
+</label><div class='controls'>
+<textarea id="commit_message" name="commit_message" placeholder="Removed this file because..." required="required" rows="3">
+</textarea>
+</div>
+</div>
+<div class='control-group'>
+<div class='controls'>
+<input class="btn btn-remove" name="commit" type="submit" value="Remove file" />
+<a class="btn btn-cancel" data-dismiss="modal" href="#">Cancel</a>
+</div>
+</div>
+</form>
+
+</div>
+</div>
+
+</div>
+</div>
+</body>
+</html>
